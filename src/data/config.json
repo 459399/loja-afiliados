@@ -13,8 +13,8 @@
       "base": "https://www.amazon.com.br"
     },
     "mercadolivre": {
-      "ativo": false,
-      "matt_word": "SEU-CODIGO-ML",
+      "ativo": true,
+      "matt_word": "sidneifideles",
       "base": "https://www.mercadolivre.com.br"
     },
     "shopee": {

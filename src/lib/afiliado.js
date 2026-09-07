@@ -1,16 +1,24 @@
 import config from "../data/config.json";
 
 /**
- * Recebe uma URL "crua" de um produto na loja e devolve a URL com o
- * seu código de afiliado anexado. Se o programa estiver desativado no
- * config.json, devolve a URL original (útil enquanto você não foi aprovado).
+ * Recebe uma URL de um produto na loja e devolve a URL com o seu código de
+ * afiliado. Se o programa estiver desativado no config.json, ou se a URL já
+ * for um link de afiliado pronto (ex: meli.la/xxx, amzn.to/xxx), devolve como
+ * está.
  *
  * NUNCA invente parâmetros de afiliado: cada plataforma tem o seu formato
- * oficial. Os abaixo são os formatos publicados por Amazon e Mercado Livre.
+ * oficial e mexer no link errado faz perder a comissão.
  */
+
+// Domínios que já são links de afiliado encurtados — não mexer.
+const JA_PRONTOS = ["meli.la", "amzn.to", "s.shopee.com.br", "shope.ee"];
+
 export function linkAfiliado(loja, urlCrua) {
   try {
     const url = new URL(urlCrua);
+
+    if (JA_PRONTOS.includes(url.hostname)) return urlCrua;
+
     const af = config.afiliados?.[loja];
     if (!af || af.ativo === false) return urlCrua;
 
@@ -18,17 +26,18 @@ export function linkAfiliado(loja, urlCrua) {
       url.searchParams.set("tag", af.tag);
       url.searchParams.set("linkCode", "ll1");
       url.searchParams.set("language", "pt_BR");
+      return url.toString();
     }
 
     if (loja === "mercadolivre" && af.matt_word) {
-      // Formato do programa de afiliados do Mercado Livre.
+      // Só usado se você colar uma URL "crua" do Mercado Livre em vez do
+      // link meli.la gerado no painel. O ideal é sempre usar o meli.la.
       url.searchParams.set("matt_word", af.matt_word);
-      url.searchParams.set("matt_tool", "site");
+      url.searchParams.set("matt_tool", "88344338");
+      return url.toString();
     }
 
-    // Shopee e outros: normalmente você cola o link já encurtado que a
-    // plataforma gera no painel de afiliado, então não mexemos.
-    return url.toString();
+    return urlCrua;
   } catch {
     return urlCrua;
   }
