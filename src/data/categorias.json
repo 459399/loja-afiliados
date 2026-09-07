@@ -1,0 +1,8 @@
+[
+  { "slug": "eletronicos", "nome": "Eletrônicos", "descricao": "Fones, smartwatches, acessórios de celular e gadgets que mais vendem." },
+  { "slug": "casa", "nome": "Casa e Cozinha", "descricao": "Organização, utilidades e pequenos eletrodomésticos práticos." },
+  { "slug": "beleza", "nome": "Beleza e Cuidados", "descricao": "Skincare, cabelo e itens de autocuidado bem avaliados." },
+  { "slug": "fitness", "nome": "Fitness e Bem-estar", "descricao": "Acessórios de treino em casa e suplementos populares." },
+  { "slug": "pet", "nome": "Pet", "descricao": "Produtos para cães e gatos com boa reputação de compra." },
+  { "slug": "infantil", "nome": "Bebês e Crianças", "descricao": "Itens de segurança, alimentação e diversão para os pequenos." }
+]

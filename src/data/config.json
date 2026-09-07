@@ -1,0 +1,25 @@
+{
+  "nome": "Achados da Semana",
+  "descricao": "Comparativos e recomendações dos produtos mais procurados da internet, com link direto para comprar nas lojas oficiais.",
+  "url": "https://459399.github.io",
+  "base": "/loja-afiliados",
+  "idioma": "pt-BR",
+  "autor": "Sidnei Fideles",
+  "email": "SEU-EMAIL-DE-CONTATO@exemplo.com",
+  "afiliados": {
+    "amazon": {
+      "ativo": false,
+      "tag": "SEU-TAG-20",
+      "base": "https://www.amazon.com.br"
+    },
+    "mercadolivre": {
+      "ativo": false,
+      "matt_word": "SEU-CODIGO-ML",
+      "base": "https://www.mercadolivre.com.br"
+    },
+    "shopee": {
+      "ativo": false,
+      "base": "https://shopee.com.br"
+    }
+  }
+}

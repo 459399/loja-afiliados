@@ -1,0 +1,110 @@
+---
+import "../styles/global.css";
+import config from "../data/config.json";
+import categorias from "../data/categorias.json";
+import { rota } from "../lib/url.js";
+
+interface Props {
+  titulo?: string;
+  descricao?: string;
+  imagem?: string;
+  tipo?: string;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const {
+  titulo,
+  descricao = config.descricao,
+  imagem,
+  tipo = "website",
+  jsonLd,
+} = Astro.props;
+
+const tituloFinal = titulo ? `${titulo} — ${config.nome}` : config.nome;
+
+const caminho = Astro.url.pathname;
+let caminhoComBase = caminho.startsWith(config.base)
+  ? caminho
+  : `${config.base}/${caminho}`.replace(/\/{2,}/g, "/");
+// Garante barra final para bater com o sitemap (evita canônica divergente).
+if (!/\.[a-z0-9]+$/i.test(caminhoComBase) && !caminhoComBase.endsWith("/")) {
+  caminhoComBase += "/";
+}
+const canonica = new URL(caminhoComBase, config.url).toString();
+
+const anoAtual = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang={config.idioma}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{tituloFinal}</title>
+    <meta name="description" content={descricao} />
+    <link rel="canonical" href={canonica} />
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:site_name" content={config.nome} />
+    <meta property="og:title" content={tituloFinal} />
+    <meta property="og:description" content={descricao} />
+    <meta property="og:type" content={tipo} />
+    <meta property="og:url" content={canonica} />
+    {imagem && <meta property="og:image" content={new URL(rota(imagem), config.url).toString()} />}
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href={rota("/favicon.svg")} type="image/svg+xml" />
+    <link rel="sitemap" href={rota("/sitemap-index.xml")} />
+
+    {
+      jsonLd && (
+        <script
+          type="application/ld+json"
+          set:html={JSON.stringify(jsonLd)}
+        />
+      )
+    }
+  </head>
+  <body>
+    <div class="aviso-afiliado">
+      Este site contém links de afiliado. Podemos ganhar uma comissão por compras
+      qualificadas, <strong>sem custo extra para você</strong>.
+      <a href={rota("/politica-de-divulgacao/")}>Saiba mais</a>.
+    </div>
+
+    <header class="site">
+      <div class="container">
+        <a class="logo" href={rota("/")}>{config.nome}</a>
+        <nav>
+          {
+            categorias.map((c) => (
+              <a href={rota(`/categoria/${c.slug}/`)}>{c.nome}</a>
+            ))
+          }
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <slot />
+      </div>
+    </main>
+
+    <footer class="site">
+      <div class="container">
+        <nav>
+          <a href={rota("/sobre/")}>Sobre</a>
+          <a href={rota("/politica-de-divulgacao/")}>Divulgação de afiliados</a>
+          <a href={rota("/politica-de-privacidade/")}>Privacidade</a>
+          <a href={`mailto:${config.email}`}>Contato</a>
+        </nav>
+        <p>
+          © {anoAtual} {config.nome}. Preços e disponibilidade podem mudar.
+          Confira sempre o valor final na loja antes de comprar. Não somos
+          loja: as compras acontecem no site do parceiro.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

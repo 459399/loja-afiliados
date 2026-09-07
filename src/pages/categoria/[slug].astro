@@ -1,0 +1,37 @@
+---
+import Base from "../../layouts/Base.astro";
+import ProdutoCard from "../../components/ProdutoCard.astro";
+import produtos from "../../data/produtos.json";
+import categorias from "../../data/categorias.json";
+import { rota } from "../../lib/url.js";
+
+export function getStaticPaths() {
+  return categorias.map((c) => ({
+    params: { slug: c.slug },
+    props: { categoria: c },
+  }));
+}
+
+const { categoria } = Astro.props;
+const lista = produtos
+  .filter((p) => p.categoria === categoria.slug)
+  .sort((a, b) => b.nota - a.nota);
+---
+
+<Base titulo={categoria.nome} descricao={categoria.descricao}>
+  <p><a href={rota("/")}>← Início</a></p>
+  <h1>{categoria.nome}</h1>
+  <p class="lead">{categoria.descricao}</p>
+
+  {
+    lista.length === 0 ? (
+      <p>Ainda não há produtos publicados nesta categoria.</p>
+    ) : (
+      <div class="grade">
+        {lista.map((p) => (
+          <ProdutoCard produto={p} />
+        ))}
+      </div>
+    )
+  }
+</Base>

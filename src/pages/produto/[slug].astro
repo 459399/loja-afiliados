@@ -1,0 +1,122 @@
+---
+import Base from "../../layouts/Base.astro";
+import BotoesLojas from "../../components/BotoesLojas.astro";
+import produtos from "../../data/produtos.json";
+import categorias from "../../data/categorias.json";
+import config from "../../data/config.json";
+import { rota } from "../../lib/url.js";
+
+export function getStaticPaths() {
+  return produtos.map((p) => ({
+    params: { slug: p.slug },
+    props: { produto: p },
+  }));
+}
+
+const { produto } = Astro.props;
+const cat = categorias.find((c) => c.slug === produto.categoria);
+
+const menorPreco = produto.lojas
+  .map((l: any) => l.preco)
+  .filter(Boolean)
+  .sort()[0];
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  name: produto.titulo,
+  image: [new URL(rota(produto.imagem), config.url).toString()],
+  description: produto.resumo,
+  review: {
+    "@type": "Review",
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: produto.nota,
+      bestRating: 5,
+    },
+    author: { "@type": "Organization", name: config.nome },
+  },
+  offers: produto.lojas.map((l: any) => ({
+    "@type": "Offer",
+    url: l.url,
+    priceCurrency: "BRL",
+    availability: "https://schema.org/InStock",
+    seller: { "@type": "Organization", name: l.loja },
+  })),
+};
+---
+
+<Base
+  titulo={produto.titulo}
+  descricao={produto.resumo}
+  imagem={produto.imagem}
+  tipo="article"
+  jsonLd={jsonLd}
+>
+  <p>
+    <a href={rota("/")}>Início</a>
+    {cat && <> / <a href={rota(`/categoria/${cat.slug}/`)}>{cat.nome}</a></>}
+  </p>
+
+  <h1>{produto.titulo}</h1>
+  <p class="lead">{produto.resumo}</p>
+
+  <img
+    src={rota(produto.imagem)}
+    alt={produto.titulo}
+    width="640"
+    height="480"
+    style="width:100%;max-width:520px;border-radius:var(--raio);background:var(--cor-caixa)"
+  />
+
+  <p style="margin-top:16px">
+    <strong>Nota:</strong> ★ {produto.nota.toFixed(1)} / 5 ·
+    <strong>Preço aproximado:</strong> {produto.preco_aprox}
+    {menorPreco && <> · <strong>Menor preço listado:</strong> {menorPreco}</>}
+  </p>
+
+  <h2>Onde comprar</h2>
+  <BotoesLojas lojas={produto.lojas} />
+
+  <div class="proscontras">
+    <div class="pros">
+      <strong>Pontos fortes</strong>
+      <ul>
+        {produto.pros.map((x: string) => <li>{x}</li>)}
+      </ul>
+    </div>
+    <div class="contras">
+      <strong>Pontos fracos</strong>
+      <ul>
+        {produto.contras.map((x: string) => <li>{x}</li>)}
+      </ul>
+    </div>
+  </div>
+
+  <h2>Análise</h2>
+  <div class="prosa">
+    {produto.analise.split("\n").filter(Boolean).map((p: string) => <p>{p}</p>)}
+  </div>
+
+  <h2>Ficha técnica</h2>
+  <table class="specs">
+    <tbody>
+      {
+        Object.entries(produto.specs).map(([k, v]) => (
+          <tr>
+            <td>{k}</td>
+            <td>{v}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+
+  <p style="font-size:.85rem;color:var(--cor-suave)">
+    Última atualização: {produto.atualizado_em}. Os preços mudam com frequência —
+    confirme o valor atual na loja.
+  </p>
+
+  <h2>Ainda em dúvida?</h2>
+  <BotoesLojas lojas={produto.lojas} />
+</Base>

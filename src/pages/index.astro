@@ -1,0 +1,66 @@
+---
+import Base from "../layouts/Base.astro";
+import ProdutoCard from "../components/ProdutoCard.astro";
+import produtos from "../data/produtos.json";
+import categorias from "../data/categorias.json";
+import config from "../data/config.json";
+import { rota } from "../lib/url.js";
+
+const destaques = produtos.filter((p) => p.destaque);
+const recentes = [...produtos]
+  .sort((a, b) => (a.atualizado_em < b.atualizado_em ? 1 : -1))
+  .slice(0, 8);
+---
+
+<Base
+  titulo="Os produtos mais procurados, comparados com honestidade"
+  descricao={config.descricao}
+>
+  <h1>Achados que valem a pena</h1>
+  <p class="lead">
+    Reunimos os produtos mais buscados da internet, comparamos preços entre
+    Amazon, Mercado Livre e Shopee e explicamos o que compensa comprar. A compra
+    acontece direto na loja oficial.
+  </p>
+
+  {
+    destaques.length > 0 && (
+      <>
+        <h2>Destaques da semana</h2>
+        <div class="grade">
+          {destaques.map((p) => (
+            <ProdutoCard produto={p} />
+          ))}
+        </div>
+      </>
+    )
+  }
+
+  <h2>Atualizados recentemente</h2>
+  <div class="grade">
+    {recentes.map((p) => <ProdutoCard produto={p} />)}
+  </div>
+
+  <h2>Categorias</h2>
+  <div class="grade">
+    {
+      categorias.map((c) => (
+        <article class="card">
+          <div class="corpo">
+            <span class="selo-categoria">Categoria</span>
+            <h3>
+              <a class="titulo" href={rota(`/categoria/${c.slug}/`)}>
+                {c.nome}
+              </a>
+            </h3>
+            <p style="font-size:.9rem;color:var(--cor-suave)">{c.descricao}</p>
+            <span style="flex:1" />
+            <a class="botao secundario" href={rota(`/categoria/${c.slug}/`)}>
+              Ver produtos
+            </a>
+          </div>
+        </article>
+      ))
+    }
+  </div>
+</Base>

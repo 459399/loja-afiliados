@@ -1,0 +1,375 @@
+[
+  {
+    "slug": "fone-bluetooth-qcy-t13",
+    "titulo": "Fone Bluetooth QCY T13",
+    "categoria": "eletronicos",
+    "imagem": "/img/placeholder.svg",
+    "nota": 4.5,
+    "preco_aprox": "R$ 120 a R$ 160",
+    "destaque": true,
+    "resumo": "O fone sem fio mais vendido do Brasil na faixa de R$ 130: bateria enorme com o estojo, conexão estável e resistência a suor para treino.",
+    "pros": [
+      "Autonomia de 30 a 40 horas somando o estojo",
+      "Certificação IPX5 (aguenta chuva leve e suor)",
+      "Conexão Bluetooth 5.1/5.3 estável para ligações e vídeo",
+      "App QCY permite ajustar equalização e controles de toque"
+    ],
+    "contras": [
+      "Cancelamento de ruído é apenas passivo/ENC nas chamadas, não isola o ambiente",
+      "Graves discretos comparados a fones mais caros",
+      "Estojo não tem carregamento sem fio"
+    ],
+    "analise": "O QCY T13 virou padrão de entrada no Brasil por um motivo simples: entrega o essencial sem cobrar caro. Para quem usa fone o dia todo para música, podcast e reuniões, a autonomia é o ponto mais forte — são cerca de 6 a 8 horas por carga do fone e 30+ horas contando as recargas do estojo, então na prática você raramente fica sem bateria.\nÉ um bom primeiro fone sem fio, um bom fone para levar à academia (o IPX5 cobre suor) e um bom reserva para quem tem um modelo caro e não quer arriscá-lo na rua. Não é indicado para quem quer cancelamento de ruído ativo de verdade (para isolar avião ou ônibus) nem para quem escuta música com foco em graves potentes — aí vale subir para o QCY MeloBuds Pro ou um JBL da linha Wave.\nComparado ao JBL Wave Buds, o T13 perde em reforço de grave e em pós-venda de marca, mas custa quase metade. Comparado à smart band da própria Xiaomi com fone, ganha em qualidade de chamada.",
+    "specs": {
+      "Conexão": "Bluetooth 5.1 a 5.3 (varia por lote)",
+      "Bateria (fone)": "6 a 8 h",
+      "Bateria (com estojo)": "30 a 40 h",
+      "Resistência à água": "IPX5",
+      "Microfone": "Redução de ruído ENC nas chamadas",
+      "Controles": "Toque, configuráveis pelo app QCY"
+    },
+    "lojas": [
+      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=fone+qcy+t13", "preco": "" },
+      { "loja": "mercadolivre", "url": "https://lista.mercadolivre.com.br/fone-qcy-t13", "preco": "" }
+    ],
+    "atualizado_em": "2026-09-06"
+  },
+  {
+    "slug": "echo-dot-5-geracao-alexa",
+    "titulo": "Echo Dot 5ª Geração (Alexa)",
+    "categoria": "casa",
+    "imagem": "/img/placeholder.svg",
+    "nota": 4.6,
+    "preco_aprox": "R$ 420 a R$ 570",
+    "destaque": true,
+    "resumo": "A porta de entrada mais comum para casa inteligente no Brasil: som decente para o tamanho, sensor de temperatura e rotinas por voz.",
+    "pros": [
+      "Som mais encorpado que as gerações anteriores",
+      "Sensor de temperatura interno para automações",
+      "Fácil de configurar e controlar lâmpadas, tomadas e TV",
+      "Cai de preço com frequência em datas promocionais"
+    ],
+    "contras": [
+      "Não tem hub Zigbee/Thread (o Echo Dot Max tem)",
+      "Depende da conta Amazon e de conexão à internet",
+      "Privacidade: é um microfone sempre à escuta da palavra de ativação"
+    ],
+    "analise": "O Echo Dot 5 é o aparelho que a maioria das pessoas compra primeiro quando quer 'começar a ter casa inteligente'. Ele serve bem para: ouvir música e rádio por voz, colocar timer na cozinha, controlar dispositivos compatíveis (lâmpadas, tomadas inteligentes, ar-condicionado com controle IR) e montar rotinas — por exemplo, 'Alexa, boa noite' apagando tudo.\nQuem mora sozinho ou em apartamento pequeno costuma achar o som suficiente para o ambiente. Quem quer som para festa ou ambiente grande deve olhar o Echo maior ou uma caixa Bluetooth dedicada. E quem pretende montar uma automação séria, com muitos sensores Zigbee, vai economizar dor de cabeça comprando direto o Echo Dot Max ou um Echo Hub, que já trazem o hub embutido — o Dot 5 exige um hub à parte.\nDica de compra: quase nunca vale pagar o preço cheio. Ele entra em promoção em praticamente todo evento (Prime Day, Black Friday, Esquenta) por R$ 250 a R$ 350.",
+    "specs": {
+      "Assistente": "Alexa",
+      "Sensores": "Temperatura, acelerômetro",
+      "Áudio": "Alto-falante de 44 mm",
+      "Conexões": "Wi-Fi dual band, Bluetooth",
+      "Hub inteligente": "Não (apenas no Echo Dot Max)"
+    },
+    "lojas": [
+      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=echo+dot+5+geracao", "preco": "" },
+      { "loja": "mercadolivre", "url": "https://lista.mercadolivre.com.br/echo-dot-5-geracao", "preco": "" }
+    ],
+    "atualizado_em": "2026-09-06"
+  },
+  {
+    "slug": "smartwatch-redmi-watch-5-active",
+    "titulo": "Smartwatch Redmi Watch 5 Active",
+    "categoria": "eletronicos",
+    "imagem": "/img/placeholder.svg",
+    "nota": 4.3,
+    "preco_aprox": "R$ 250 a R$ 320",
+    "destaque": false,
+    "resumo": "Relógio inteligente barato com bateria que dura quase duas semanas, chamadas por Bluetooth e mais de 140 modos de treino.",
+    "pros": [
+      "Bateria de até 18 dias em uso típico",
+      "Tela grande de 2 polegadas, fácil de ler",
+      "Atende e faz ligações pelo relógio (alto-falante e microfone)",
+      "Mais de 140 modos esportivos"
+    ],
+    "contras": [
+      "Sem GPS embutido (usa o GPS do celular)",
+      "Medições de sono e estresse são estimativas, não grau clínico",
+      "Pulseira e app são simples comparados a Garmin/Apple"
+    ],
+    "analise": "O Redmi Watch 5 Active é para quem quer o básico de um smartwatch pagando pouco: ver notificações no pulso, medir passos e frequência cardíaca, acompanhar o sono e não precisar carregar toda noite. A autonomia real de 10 a 18 dias é o que mais agrada — você quase esquece que ele precisa de carga.\nÉ uma boa escolha para presente, para quem está saindo do relógio comum e para corrida leve/caminhada em que o celular vai junto. Não é a escolha certa para quem corre sem celular e quer rota de GPS precisa, nem para quem quer treinos guiados avançados — nesses casos, o degrau seguinte é o Redmi Watch 5 Lite (tem GPS) ou uma smartband da linha Amazfit.\nComparado à Xiaomi Smart Band 9, o Watch 5 Active ganha em tela e em fazer/receber chamadas; a Band 9 ganha em ser discreta e ainda mais leve no pulso.",
+    "specs": {
+      "Tela": "2,0'' TFT LCD",
+      "Bateria": "470 mAh, até 18 dias",
+      "GPS": "Não (conectado ao celular)",
+      "Chamadas": "Sim, via Bluetooth",
+      "Resistência à água": "5 ATM",
+      "Modos de treino": "140+"
+    },
+    "lojas": [
+      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=redmi+watch+5+active", "preco": "" },
+      { "loja": "mercadolivre", "url": "https://lista.mercadolivre.com.br/redmi-watch-5-active", "preco": "" }
+    ],
+    "atualizado_em": "2026-09-06"
+  },
+  {
+    "slug": "xiaomi-smart-band-9",
+    "titulo": "Xiaomi Smart Band 9",
+    "categoria": "fitness",
+    "imagem": "/img/placeholder.svg",
+    "nota": 4.5,
+    "preco_aprox": "R$ 220 a R$ 300",
+    "destaque": false,
+    "resumo": "A pulseira fitness mais popular do Brasil: leve, tela AMOLED bonita e bateria para duas semanas.",
+    "pros": [
+      "Tela AMOLED brilhante, boa no sol",
+      "Muito leve — dá para dormir com ela sem incomodar",
+      "Bateria de 12 a 18 dias",
+      "Monitor de frequência cardíaca e oxigenação contínuos"
+    ],
+    "contras": [
+      "Sem GPS próprio",
+      "Não faz chamadas",
+      "Alguns recursos exigem o app Mi Fitness com conta Xiaomi"
+    ],
+    "analise": "A Smart Band 9 é a recomendação padrão para quem quer começar a acompanhar atividade física sem gastar muito e sem carregar um relógio no pulso o dia todo. Ela cobre bem o dia a dia: passos, batimentos, sono, lembrete para levantar, cronômetro, controle de música e notificações.\nÉ ideal para quem treina em academia ou em casa, faz caminhada e quer um number geral de saúde. Para quem pedala ou corre em rua e quer mapa do percurso, falta GPS — a alternativa é levar o celular ou subir para a linha Amazfit Bip/Active, que tem GPS por preço parecido.\nEntre gerações, a diferença da Band 8 para a 9 é pequena (tela um pouco melhor, ajustes de software). Se achar a Band 8 bem mais barata, ela ainda entrega quase a mesma experiência.",
+    "specs": {
+      "Tela": "1,62'' AMOLED",
+      "Bateria": "Até 21 dias (modo economia) / ~12 dias uso normal",
+      "Sensores": "Frequência cardíaca, SpO2, acelerômetro",
+      "Resistência à água": "5 ATM",
+      "Peso": "~16 g sem pulseira"
+    },
+    "lojas": [
+      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=xiaomi+smart+band+9", "preco": "" },
+      { "loja": "mercadolivre", "url": "https://lista.mercadolivre.com.br/xiaomi-smart-band-9", "preco": "" }
+    ],
+    "atualizado_em": "2026-09-06"
+  },
+  {
+    "slug": "air-fryer-mondial-4l",
+    "titulo": "Air Fryer Mondial 4L (linha AFN)",
+    "categoria": "casa",
+    "imagem": "/img/placeholder.svg",
+    "nota": 4.6,
+    "preco_aprox": "R$ 250 a R$ 380",
+    "destaque": true,
+    "resumo": "A fritadeira sem óleo mais vendida do país: 4 litros, painel simples e milhares de avaliações positivas.",
+    "pros": [
+      "Capacidade de 4 L serve bem 3 a 4 pessoas",
+      "Cesto antiaderente fácil de lavar",
+      "Peças de reposição fáceis de achar (marca nacional)",
+      "Preço quase sempre abaixo dos concorrentes diretos"
+    ],
+    "contras": [
+      "Acabamento plástico simples",
+      "Versão digital custa mais; a analógica não tem timer preciso",
+      "Ocupa espaço considerável na bancada"
+    ],
+    "analise": "Se a intenção é ter uma air fryer que 'só funciona' pelo menor preço razoável, a linha de 4 litros da Mondial é a aposta mais segura no Brasil. O volume de vendas e avaliações é gigante, então defeito de fabricação e problema de assistência aparecem rápido em review — e ela se mantém bem avaliada.\nServe para o uso mais comum: aquecer congelados, assar frango, legumes, pão de queijo e fazer aquele reaproveitamento de sobras. Uma família de 4 consegue usar; casal usa com folga. Quem cozinha para 5 ou mais, ou quer assar um frango inteiro, deve olhar modelos de 7 a 12 litros (Britânia, Midea, Philco forno).\nAtenção à voltagem: confira se o modelo anunciado é 110 V ou 220 V antes de comprar — trocar depois é dor de cabeça. E prefira a versão digital se puder: o controle de tempo é bem mais confiável que o timer de girar.",
+    "specs": {
+      "Capacidade": "4 litros",
+      "Potência": "1500 W (110 V) / 1550 W (220 V)",
+      "Controle": "Analógico ou digital, conforme modelo",
+      "Cesto": "Antiaderente, removível",
+      "Temperatura": "Até ~200 °C"
+    },
+    "lojas": [
+      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=air+fryer+mondial+4+litros", "preco": "" },
+      { "loja": "mercadolivre", "url": "https://lista.mercadolivre.com.br/air-fryer-mondial-4-litros", "preco": "" }
+    ],
+    "atualizado_em": "2026-09-06"
+  },
+  {
+    "slug": "robo-aspirador-kabum-smart-700",
+    "titulo": "Robô Aspirador KaBuM! Smart 700",
+    "categoria": "casa",
+    "imagem": "/img/placeholder.svg",
+    "nota": 4.2,
+    "preco_aprox": "R$ 900 a R$ 1.400",
+    "destaque": false,
+    "resumo": "Um dos robôs com mapeamento a laser mais baratos do Brasil: aspira, passa pano e desvia de móveis com lógica de rota.",
+    "pros": [
+      "Navegação a laser (LDS) — anda em linhas, não bate aleatoriamente",
+      "Aspira e passa pano úmido no mesmo passe",
+      "App com mapa, zonas proibidas e agendamento",
+      "Compatível com Alexa e Google Assistente"
+    ],
+    "contras": [
+      "Reservatório de água pequeno para casas grandes",
+      "Não sobe degraus nem tapete muito alto",
+      "Base não esvazia sozinha (modelos com auto-esvaziamento custam o dobro)"
+    ],
+    "analise": "O Smart 700 é para quem quer parar de passar vassoura todo dia sem gastar o preço de um iRobot. O diferencial contra os robôs mais baratos (inclusive vários da Multilaser) é o mapeamento a laser: ele monta a planta da casa, limpa em linhas paralelas e você define no app onde ele não deve entrar.\nFunciona bem em apartamento e casa térrea com piso frio, laminado ou vinílico. Cães e gatos que soltam pelo se beneficiam de rodar o robô todo dia no modo agendado. Não resolve tudo: cantos, escadas e sujeira grande (papel, grão de feijão) ainda pedem aspirador de mão. Casa com muito tapete felpudo ou vários desníveis também não é o cenário ideal.\nAlternativas na mesma faixa: WAP Robot W1000 (marca nacional, boa assistência) e modelos da Xiaomi/Mi Robot quando entram em promoção.",
+    "specs": {
+      "Navegação": "Laser (LDS) com mapeamento",
+      "Funções": "Aspira + passa pano",
+      "Autonomia": "~110 min",
+      "Controle": "App + Alexa + Google",
+      "Altura vencível": "~1,5 cm"
+    },
+    "lojas": [
+      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=robo+aspirador+kabum+smart+700", "preco": "" },
+      { "loja": "mercadolivre", "url": "https://lista.mercadolivre.com.br/robo-aspirador-kabum-smart-700", "preco": "" }
+    ],
+    "atualizado_em": "2026-09-06"
+  },
+  {
+    "slug": "kit-organizadores-de-gaveta",
+    "titulo": "Kit de Organizadores de Gaveta e Armário",
+    "categoria": "casa",
+    "imagem": "/img/placeholder.svg",
+    "nota": 4.3,
+    "preco_aprox": "R$ 30 a R$ 120",
+    "destaque": false,
+    "resumo": "Os divisores e caixas modulares que viralizam em vídeo de 'antes e depois': baratos, resolvem gaveta bagunçada em minutos.",
+    "pros": [
+      "Preço baixo e efeito visual imediato",
+      "Servem para roupa íntima, cozinha, escritório, banheiro",
+      "Fáceis de lavar (plástico) ou dobráveis (tecido)",
+      "Compra recorrente — cliente costuma voltar para comprar mais"
+    ],
+    "contras": [
+      "Medidas variam: é preciso medir a gaveta antes",
+      "Versões muito baratas têm plástico fino que racha",
+      "Modelos de tecido perdem a forma com o tempo"
+    ],
+    "analise": "Organizador de gaveta é um dos campeões de venda por impulso na internet porque o vídeo vende sozinho: mostra o caos, mostra a solução em 20 segundos, pronto. Para o consumidor, o valor é real — R$ 50 resolvem uma gaveta que irritava todo dia.\nOs tipos que mais saem: divisores ajustáveis para gaveta de roupa, colmeias para meia e cueca, caixas empilháveis para despensa e potes herméticos para mantimento. Vale orientar o comprador a medir largura, profundidade e altura da gaveta antes — a devolução por 'não coube' é a reclamação número um da categoria.\nComo conteúdo, funciona muito bem em Pinterest e Reels/Shorts. Como recomendação escrita, foque em 'qual kit para qual cômodo' e em marcas cujo plástico não racha (Ordene, Paramount, Coza costumam ser citadas).",
+    "specs": {
+      "Materiais": "Polipropileno ou tecido não tecido (TNT)",
+      "Uso": "Guarda-roupa, cozinha, banheiro, home office",
+      "Cuidado": "Medir a gaveta antes de comprar"
+    },
+    "lojas": [
+      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=organizador+de+gaveta+kit", "preco": "" },
+      { "loja": "mercadolivre", "url": "https://lista.mercadolivre.com.br/organizador-de-gaveta-kit", "preco": "" },
+      { "loja": "shopee", "url": "https://shopee.com.br/search?keyword=organizador%20de%20gaveta", "preco": "" }
+    ],
+    "atualizado_em": "2026-09-06"
+  },
+  {
+    "slug": "protetor-solar-facial-toque-seco",
+    "titulo": "Protetor Solar Facial com Cor (toque seco)",
+    "categoria": "beleza",
+    "imagem": "/img/placeholder.svg",
+    "nota": 4.6,
+    "preco_aprox": "R$ 45 a R$ 90",
+    "destaque": false,
+    "resumo": "Item de recompra mensal e um dos produtos de beleza mais buscados: FPS alto, acabamento seco e cor que uniformiza a pele.",
+    "pros": [
+      "Uso diário — o cliente volta para comprar todo mês",
+      "Versão com cor dispensa base para muita gente",
+      "Linhas de farmácia têm preço acessível",
+      "Alta procura o ano inteiro, não só no verão"
+    ],
+    "contras": [
+      "Tom de cor pode não combinar (risco de troca)",
+      "Peles muito secas podem achar o toque seco desconfortável",
+      "Precisa reaplicar durante o dia — o vidro dura menos do que parece"
+    ],
+    "analise": "Protetor solar facial é um dos melhores produtos para conteúdo de afiliado no Brasil: procura altíssima e constante, ticket médio ok e recompra garantida. As dúvidas do consumidor são sempre as mesmas e dá para respondê-las bem por escrito: 'com cor ou sem cor?', 'serve para pele oleosa?', 'pode usar embaixo da maquiagem?', 'qual FPS?'.\nPara pele oleosa e mista, os mais recomendados são os de 'toque seco' ou 'antioleosidade' com FPS 50+ ou 70. Para pele seca, versões 'hidratante' ou em sérum. A versão com cor (base tint) é a queridinha porque substitui a base no dia a dia — mas é onde mora o risco de troca por causa do tom, então oriente o leitor a escolher entre claro/médio/escuro com cuidado.\nMarcas de farmácia costumam citadas por bom custo: Episol, Nivea Sun, Neutrogena, Bioré, Australian Gold e as linhas próprias de rede de farmácia.",
+    "specs": {
+      "FPS recomendado": "50 a 70 para o rosto",
+      "Acabamento": "Toque seco / matte para pele oleosa",
+      "Com cor": "Sim (base tint) ou incolor",
+      "Reaplicação": "A cada 3 h de exposição"
+    },
+    "lojas": [
+      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=protetor+solar+facial+toque+seco+com+cor", "preco": "" },
+      { "loja": "mercadolivre", "url": "https://lista.mercadolivre.com.br/protetor-solar-facial-com-cor", "preco": "" }
+    ],
+    "atualizado_em": "2026-09-06"
+  },
+  {
+    "slug": "escova-secadora-rotativa",
+    "titulo": "Escova Secadora Rotativa",
+    "categoria": "beleza",
+    "imagem": "/img/placeholder.svg",
+    "nota": 4.4,
+    "preco_aprox": "R$ 120 a R$ 300",
+    "destaque": false,
+    "resumo": "Seca e modela em um passo só. Um dos itens de beleza que mais vende online por causa dos vídeos de resultado.",
+    "pros": [
+      "Substitui secador + escova + prancha para o dia a dia",
+      "Resultado 'escova de salão' em casa com pouca prática",
+      "Faixa de R$ 150 já entrega bom resultado",
+      "Presente muito bem recebido"
+    ],
+    "contras": [
+      "Cabelos muito longos e grossos exigem mais tempo e paciência",
+      "Modelos baratos esquentam demais e podem ressecar",
+      "Cerdas soltam fio se usada com o cabelo muito molhado"
+    ],
+    "analise": "A escova secadora rotativa é um clássico de venda por vídeo: a transformação aparece na tela e a pessoa compra. E, diferente de muito produto viral, ela costuma agradar de verdade — para cabelo liso a ondulado, no comprimento médio, ela entrega um brushing decente em 10 a 15 minutos.\nÉ boa compra para quem faz escova no salão toda semana (paga-se rápido) e para quem tem cabelo com frizz que só precisa de um alinhamento diário. Para cabelo cacheado/crespo que quer definição de cacho, não é o produto — aí é difusor. Para cabelo muito longo e denso, vale um modelo mais potente (1200 W+) e barril maior.\nNo texto, os pontos que convertem: diferença entre a de 'uma escova' e o kit com vários acessórios, potência ideal por tipo de cabelo, e o alerta de sempre usar com o cabelo 80% seco para não danificar.",
+    "specs": {
+      "Potência": "1000 a 1200 W",
+      "Barris": "Um (fixo) ou kit com vários diâmetros",
+      "Tecnologia": "Íons / cerâmica / turmalina (reduz frizz)",
+      "Ideal para": "Cabelo liso a ondulado, comprimento médio"
+    },
+    "lojas": [
+      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=escova+secadora+rotativa", "preco": "" },
+      { "loja": "mercadolivre", "url": "https://lista.mercadolivre.com.br/escova-secadora-rotativa", "preco": "" }
+    ],
+    "atualizado_em": "2026-09-06"
+  },
+  {
+    "slug": "fonte-bebedouro-para-gatos",
+    "titulo": "Fonte Bebedouro para Gatos e Cães",
+    "categoria": "pet",
+    "imagem": "/img/placeholder.svg",
+    "nota": 4.5,
+    "preco_aprox": "R$ 90 a R$ 200",
+    "destaque": false,
+    "resumo": "Água corrente filtrada incentiva o pet a beber mais — recomendação comum de veterinário para gato, e um produto de recompra (filtros).",
+    "pros": [
+      "Estimula gatos a se hidratarem (ajuda a prevenir problema renal e urinário)",
+      "Filtro segura pelo e resíduo",
+      "Recompra recorrente de filtros — boa receita para afiliado",
+      "Bomba costuma ser silenciosa nos modelos atuais"
+    ],
+    "contras": [
+      "Precisa lavar a cada 1 ou 2 semanas para não criar limo",
+      "Filtro de reposição às vezes é difícil de achar da marca certa",
+      "Alguns modelos fazem barulho quando o nível da água baixa"
+    ],
+    "analise": "A fonte para pet resolve um problema real: muitos gatos bebem pouca água parada e isso está ligado a problemas de rim e trato urinário. A água em movimento e filtrada atrai o animal a beber mais vezes ao dia. Por isso é um produto que veterinário recomenda e que o tutor compra sem muita objeção.\nO ponto de atenção para o comprador é a manutenção: a fonte precisa ser desmontada e lavada com frequência, e o filtro trocado a cada 2 a 4 semanas. Vale escolher um modelo com filtros fáceis de encontrar (e checar o preço do filtro antes — é o custo recorrente).\nComo conteúdo de afiliado, funciona bem porque tem venda do produto principal + venda contínua de refil. Modelos de aço inox são mais fáceis de higienizar que os de plástico e menos propensos a causar acne felina no queixo.",
+    "specs": {
+      "Capacidade": "1,5 a 3 litros",
+      "Filtragem": "Carvão ativado + espuma",
+      "Material": "Plástico ou aço inox",
+      "Manutenção": "Lavar a cada 1-2 semanas, trocar filtro a cada 2-4 semanas",
+      "Energia": "USB (5 V)"
+    },
+    "lojas": [
+      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=fonte+bebedouro+gato", "preco": "" },
+      { "loja": "mercadolivre", "url": "https://lista.mercadolivre.com.br/fonte-bebedouro-gato", "preco": "" }
+    ],
+    "atualizado_em": "2026-09-06"
+  },
+  {
+    "slug": "kit-faixas-de-resistencia",
+    "titulo": "Kit de Faixas de Resistência para Treino em Casa",
+    "categoria": "fitness",
+    "imagem": "/img/placeholder.svg",
+    "nota": 4.5,
+    "preco_aprox": "R$ 50 a R$ 130",
+    "destaque": false,
+    "resumo": "Treino de força que cabe numa gaveta. Procura sobe todo início de ano e toda vez que a academia fica cara.",
+    "pros": [
+      "Ocupa quase nenhum espaço e viaja fácil",
+      "Vários níveis de carga no mesmo kit",
+      "Bom para fisioterapia e reforço de glúteo/ombro",
+      "Preço baixo, margem de afiliado ok pelo volume"
+    ],
+    "contras": [
+      "Não substitui carga pesada para quem quer hipertrofia avançada",
+      "Borracha barata tem cheiro forte e rasga com o tempo",
+      "Sem técnica, é fácil a faixa escapar e machucar"
+    ],
+    "analise": "As faixas de resistência são um dos produtos fitness mais vendidos online porque a barreira de entrada é mínima: cabe em qualquer lugar, custa pouco e serve para iniciante, para quem viaja e para reabilitação. A procura tem picos claros — janeiro (meta de ano novo) e sempre que reajuste de mensalidade de academia vira assunto.\nOs dois formatos principais: as faixas tubulares com alças (mais parecidas com um aparelho de cabo, boas para costas e peito) e as faixas em loop de tecido (as 'mini bands', queridinhas para glúteo e perna). Um kit bom traz 3 a 5 intensidades.\nNo texto, o que ajuda o leitor: diferença entre látex e tecido, qual carga escolher para começar, e 3 ou 4 exercícios básicos com foto. Complementos que vendem junto: caneleira de peso e tapete de yoga.",
+    "specs": {
+      "Formatos": "Tubular com alças e/ou loop de tecido (mini band)",
+      "Intensidades": "3 a 5 por kit",
+      "Material": "Látex natural ou tecido com elástico interno",
+      "Acompanha": "Geralmente bolsa e presilha de porta"
+    },
+    "lojas": [
+      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=kit+faixa+de+resistencia+treino", "preco": "" },
+      { "loja": "mercadolivre", "url": "https://lista.mercadolivre.com.br/kit-faixa-resistencia-treino", "preco": "" },
+      { "loja": "shopee", "url": "https://shopee.com.br/search?keyword=faixa%20de%20resistencia", "preco": "" }
+    ],
+    "atualizado_em": "2026-09-06"
+  }
+]

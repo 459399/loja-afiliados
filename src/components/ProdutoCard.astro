@@ -1,0 +1,28 @@
+---
+import categorias from "../data/categorias.json";
+import { rota } from "../lib/url.js";
+
+interface Props {
+  produto: any;
+}
+const { produto } = Astro.props;
+const cat = categorias.find((c) => c.slug === produto.categoria);
+const link = rota(`/produto/${produto.slug}/`);
+---
+
+<article class="card">
+  <a href={link}>
+    <img src={rota(produto.imagem)} alt={produto.titulo} loading="lazy" width="400" height="300" />
+  </a>
+  <div class="corpo">
+    {cat && <span class="selo-categoria">{cat.nome}</span>}
+    <h3>
+      <a class="titulo" href={link}>{produto.titulo}</a>
+    </h3>
+    <span class="nota">★ {produto.nota.toFixed(1)}</span>
+    <span class="preco">{produto.preco_aprox}</span>
+    <p style="margin:4px 0 0;font-size:.9rem;color:var(--cor-suave)">{produto.resumo}</p>
+    <span style="flex:1"></span>
+    <a class="botao" href={link}>Ver análise</a>
+  </div>
+</article>

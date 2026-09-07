@@ -1,0 +1,27 @@
+---
+import Base from "../layouts/Base.astro";
+import config from "../data/config.json";
+---
+
+<Base titulo="Sobre" descricao={`Sobre o ${config.nome}`}>
+  <h1>Sobre o {config.nome}</h1>
+  <div class="prosa">
+    <p>
+      O {config.nome} é um site de recomendação de produtos. Nós pesquisamos,
+      comparamos e escrevemos análises dos itens mais procurados da internet para
+      ajudar você a decidir o que comprar.
+    </p>
+    <p>
+      <strong>Não vendemos nada e não temos estoque.</strong> Quando você decide
+      comprar, é redirecionado para a loja oficial (Amazon, Mercado Livre, Shopee
+      e outras). Toda a transação, entrega, nota fiscal e suporte são
+      responsabilidade da loja.
+    </p>
+    <p>
+      Ganhamos comissão de afiliado quando uma compra é feita a partir dos nossos
+      links. Isso não muda o preço que você paga e não influencia nossas notas —
+      apontamos defeitos sempre que existem.
+    </p>
+    <p>Dúvidas ou correções: <a href={`mailto:${config.email}`}>{config.email}</a>.</p>
+  </div>
+</Base>

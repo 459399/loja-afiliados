@@ -1,0 +1,31 @@
+---
+import { linkAfiliado, nomeLoja } from "../lib/afiliado.js";
+
+interface Props {
+  lojas: { loja: string; url: string; preco?: string }[];
+}
+const { lojas } = Astro.props;
+---
+
+<div class="lojas-lista">
+  {
+    lojas.map((l) => (
+      <div class="loja-item">
+        <span class="nome">{nomeLoja(l.loja)}</span>
+        <span style="color:var(--cor-suave)">{l.preco ?? ""}</span>
+        <a
+          class="botao"
+          href={linkAfiliado(l.loja, l.url)}
+          target="_blank"
+          rel="sponsored nofollow noopener"
+        >
+          Comprar na {nomeLoja(l.loja)}
+        </a>
+      </div>
+    ))
+  }
+</div>
+<p style="font-size:.8rem;color:var(--cor-suave)">
+  Ao clicar em "Comprar" você vai para o site da loja. O preço final e o frete
+  são definidos por ela. Links marcados como patrocinados (afiliado).
+</p>

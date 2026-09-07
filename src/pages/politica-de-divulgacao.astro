@@ -1,0 +1,46 @@
+---
+import Base from "../layouts/Base.astro";
+import config from "../data/config.json";
+---
+
+<Base
+  titulo="Política de divulgação de afiliados"
+  descricao="Como funcionam os links de afiliado neste site."
+>
+  <h1>Política de divulgação de afiliados</h1>
+  <div class="prosa">
+    <p>
+      O {config.nome} participa de programas de afiliados. Isso significa que
+      alguns links para produtos são "links de afiliado": se você clicar e
+      concluir uma compra, podemos receber uma comissão da loja.
+    </p>
+    <p><strong>Você nunca paga a mais por isso.</strong> A comissão é paga pela loja, não por você.</p>
+
+    <h2>Programas dos quais participamos</h2>
+    <ul>
+      <li>
+        Amazon Associates — "Como um Associado da Amazon, ganhamos com compras
+        qualificadas."
+      </li>
+      <li>Programa de Afiliados do Mercado Livre</li>
+      <li>Shopee Afiliados</li>
+      <li>Outras redes eventualmente citadas na página do produto</li>
+    </ul>
+
+    <h2>Nossa independência editorial</h2>
+    <p>
+      As comissões não definem nossas recomendações. Avaliamos os produtos pelos
+      mesmos critérios independentemente de haver ou não link de afiliado, e
+      listamos defeitos abertamente.
+    </p>
+
+    <h2>Preços</h2>
+    <p>
+      Preços e disponibilidade mostrados aqui são coletados em um momento
+      específico e podem estar desatualizados. O valor válido é sempre o exibido
+      na loja no momento da compra.
+    </p>
+
+    <p>Contato: <a href={`mailto:${config.email}`}>{config.email}</a></p>
+  </div>
+</Base>

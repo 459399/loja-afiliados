@@ -1,0 +1,43 @@
+---
+import Base from "../layouts/Base.astro";
+import config from "../data/config.json";
+---
+
+<Base
+  titulo="Política de privacidade"
+  descricao="Como tratamos dados no site."
+>
+  <h1>Política de privacidade</h1>
+  <div class="prosa">
+    <p>
+      Esta política explica, de forma simples, como o {config.nome} lida com
+      dados. Adapte este texto com a ajuda de um profissional para adequação
+      total à LGPD (Lei 13.709/2018) antes de operar comercialmente.
+    </p>
+
+    <h2>Dados que coletamos</h2>
+    <p>
+      O site é estático e <strong>não possui cadastro nem formulários que
+      guardem dados pessoais</strong>. Não coletamos nome, e-mail ou telefone,
+      exceto quando você nos escreve voluntariamente por e-mail.
+    </p>
+
+    <h2>Cookies e medição de acesso</h2>
+    <p>
+      Podemos usar uma ferramenta de estatísticas de acesso. Se ela usar
+      cookies, um aviso de consentimento será exibido. Os links de afiliado das
+      lojas parceiras podem gravar cookies próprios no seu navegador quando você
+      clica neles — isso é feito pela loja, conforme a política dela.
+    </p>
+
+    <h2>Seus direitos</h2>
+    <p>
+      Você pode solicitar informações sobre qualquer dado que tenhamos recebido
+      de você por e-mail e pedir a exclusão, escrevendo para
+      <a href={`mailto:${config.email}`}>{config.email}</a>.
+    </p>
+
+    <h2>Alterações</h2>
+    <p>Esta política pode ser atualizada. A data da última revisão fica no rodapé do repositório do site.</p>
+  </div>
+</Base>
