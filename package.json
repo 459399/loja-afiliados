@@ -8,7 +8,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "novo-produto": "node scripts/novo-produto.mjs",
-    "checar-links": "node scripts/checar-links.mjs"
+    "checar-links": "node scripts/checar-links.mjs",
+    "gerar-pins": "node scripts/gerar-pins.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
