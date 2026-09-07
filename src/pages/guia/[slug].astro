@@ -1,0 +1,129 @@
+---
+import Base from "../../layouts/Base.astro";
+import BotoesLojas from "../../components/BotoesLojas.astro";
+import guias from "../../data/guias.json";
+import produtos from "../../data/produtos.json";
+import config from "../../data/config.json";
+import { rota } from "../../lib/url.js";
+
+export function getStaticPaths() {
+  return guias.map((g) => ({ params: { slug: g.slug }, props: { guia: g } }));
+}
+
+const { guia } = Astro.props;
+
+const itens = guia.selecoes
+  .map((s) => ({ ...s, produto: produtos.find((p) => p.slug === s.produto) }))
+  .filter((s) => s.produto);
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: guia.titulo,
+    itemListElement: itens.map((s, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: s.produto.titulo,
+      url: new URL(rota(`/produto/${s.produto.slug}/`), config.url).toString(),
+    })),
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: (guia.faq || []).map((f) => ({
+      "@type": "Question",
+      name: f.p,
+      acceptedAnswer: { "@type": "Answer", text: f.r },
+    })),
+  },
+];
+---
+
+<Base
+  titulo={guia.titulo}
+  descricao={guia.meta_descricao}
+  tipo="article"
+  jsonLd={jsonLd}
+>
+  <p><a href={rota("/guias/")}>Guias</a> / {guia.titulo}</p>
+  <h1>{guia.titulo}</h1>
+
+  <div class="prosa">
+    {guia.intro.split("\n").filter(Boolean).map((p) => <p class="lead">{p}</p>)}
+  </div>
+
+  {
+    itens.map((s) => (
+      <section class="guia-item">
+        <span class="selo-categoria">{s.rotulo}</span>
+        <h2 style="margin-top:4px">
+          <a href={rota(`/produto/${s.produto.slug}/`)}>{s.produto.titulo}</a>
+        </h2>
+        <div class="guia-item-corpo">
+          <a href={rota(`/produto/${s.produto.slug}/`)}>
+            <img
+              src={rota(s.produto.imagem)}
+              alt={s.produto.titulo}
+              width="240"
+              height="180"
+              style="border-radius:var(--raio);background:var(--cor-caixa)"
+            />
+          </a>
+          <div>
+            <p style="margin:0 0 8px">
+              <strong>★ {s.produto.nota.toFixed(1)}</strong> ·
+              {s.produto.preco_aprox}
+            </p>
+            <p style="margin:0 0 12px">{s.texto}</p>
+            <BotoesLojas lojas={s.produto.lojas} />
+          </div>
+        </div>
+      </section>
+    ))
+  }
+
+  <h2>Como escolhemos</h2>
+  <div class="prosa"><p>{guia.criterios}</p></div>
+
+  {
+    guia.faq && guia.faq.length > 0 && (
+      <>
+        <h2>Perguntas frequentes</h2>
+        {guia.faq.map((f) => (
+          <div class="prosa">
+            <h3 style="margin-bottom:2px">{f.p}</h3>
+            <p style="margin-top:2px">{f.r}</p>
+          </div>
+        ))}
+      </>
+    )
+  }
+
+  <p style="font-size:.85rem;color:var(--cor-suave);margin-top:24px">
+    Guia atualizado em {guia.atualizado_em}. Preços mudam com frequência —
+    confira o valor atual na loja. Este conteúdo tem links de afiliado.
+  </p>
+</Base>
+
+<style>
+  .guia-item {
+    border: 1px solid var(--cor-borda);
+    border-radius: var(--raio);
+    padding: 18px;
+    margin: 20px 0;
+  }
+  .guia-item-corpo {
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+  }
+  .guia-item-corpo > a {
+    flex-shrink: 0;
+  }
+  @media (max-width: 600px) {
+    .guia-item-corpo {
+      flex-direction: column;
+    }
+  }
+</style>

@@ -1,0 +1,40 @@
+---
+import Base from "../layouts/Base.astro";
+import guias from "../data/guias.json";
+import { rota } from "../lib/url.js";
+---
+
+<Base
+  titulo="Guias de compra"
+  descricao="Guias diretos para escolher o produto certo: air fryer, smartwatch, fone Bluetooth e mais, com recomendação por perfil de uso."
+>
+  <h1>Guias de compra</h1>
+  <p class="lead">
+    Comparativos organizados por situação de uso. Cada guia indica um produto
+    para cada perfil e explica o que conferir antes de comprar.
+  </p>
+
+  <div class="grade">
+    {
+      guias.map((g) => (
+        <article class="card">
+          <div class="corpo">
+            <span class="selo-categoria">Guia</span>
+            <h3>
+              <a class="titulo" href={rota(`/guia/${g.slug}/`)}>
+                {g.titulo}
+              </a>
+            </h3>
+            <p style="font-size:.9rem;color:var(--cor-suave)">
+              {g.meta_descricao}
+            </p>
+            <span style="flex:1" />
+            <a class="botao" href={rota(`/guia/${g.slug}/`)}>
+              Ler guia
+            </a>
+          </div>
+        </article>
+      ))
+    }
+  </div>
+</Base>

@@ -34,7 +34,7 @@ import config from "../data/config.json";
     <p>
       Você pode solicitar informações sobre qualquer dado que tenhamos recebido
       de você por e-mail e pedir a exclusão, escrevendo para
-      <a href={`mailto:${config.email}`}>{config.email}</a>.
+      {config.email ? <a href={`mailto:${config.email}`}>{config.email}</a> : "o canal de contato informado na página Sobre"}.
     </p>
 
     <h2>Alterações</h2>

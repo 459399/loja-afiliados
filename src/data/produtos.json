@@ -369,5 +369,71 @@
       { "loja": "mercadolivre", "url": "https://meli.la/1RTwmTm", "preco": "" }
     ],
     "atualizado_em": "2026-09-06"
+  },
+  {
+    "slug": "air-fryer-forno-12l",
+    "titulo": "Air Fryer Forno 12L (Britânia / Mondial / Midea)",
+    "categoria": "casa",
+    "imagem": "/img/placeholder.svg",
+    "nota": 4.4,
+    "preco_aprox": "R$ 450 a R$ 750",
+    "destaque": false,
+    "resumo": "Para família grande ou quem quer assar frango inteiro: capacidade de 11 a 12 litros, porta de vidro e prateleiras.",
+    "pros": [
+      "Assa frango inteiro, pizza e bolo",
+      "Porta de vidro deixa acompanhar sem abrir",
+      "Costuma vir com espeto giratório e cesto de fritura",
+      "Serve 5 pessoas ou mais"
+    ],
+    "contras": [
+      "Ocupa muito espaço na bancada (é um forno)",
+      "Demora mais para pré-aquecer que uma air fryer de cesto",
+      "Limpeza das prateleiras e do interior dá mais trabalho"
+    ],
+    "analise": "A air fryer de formato forno é a escolha certa quando 4 litros não dão conta: casa com 4 ou mais pessoas, quem recebe visita com frequência ou quem quer usar como forno de verdade (assar, gratinar, fazer pão). Modelos de 11 a 12 litros da Britânia, Mondial, Midea e Oster dominam essa faixa.\nA contrapartida é espaço e tempo: ela é grande e leva alguns minutos a mais para esquentar. Para quem mora sozinho ou em casal e só esquenta congelado, é exagero — a de cesto de 4 L resolve mais rápido e limpa mais fácil.\nNa hora de comparar, olhe: potência (1600 W ou mais aquece melhor), se acompanha espeto giratório e cesto, e a voltagem (110 V ou 220 V). O revestimento antiaderente das prateleiras é o que mais gera reclamação a longo prazo — modelos com prateleira em inox envelhecem melhor.",
+    "specs": {
+      "Capacidade": "11 a 12 litros",
+      "Potência": "1600 a 1800 W",
+      "Acessórios": "Cesto de fritura, espeto giratório, bandeja",
+      "Porta": "Vidro com visor",
+      "Ideal para": "5+ pessoas, uso como forno"
+    },
+    "lojas": [
+      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=air+fryer+forno+12+litros", "preco": "" }
+    ],
+    "atualizado_em": "2026-09-07"
+  },
+  {
+    "slug": "fone-qcy-melobuds-pro",
+    "titulo": "Fone QCY MeloBuds Pro",
+    "categoria": "eletronicos",
+    "imagem": "/img/placeholder.svg",
+    "nota": 4.4,
+    "preco_aprox": "R$ 220 a R$ 320",
+    "destaque": false,
+    "resumo": "O passo acima do QCY T13: cancelamento de ruído ativo de verdade, drivers maiores e áudio de alta resolução (LDAC).",
+    "pros": [
+      "Cancelamento de ruído ativo forte (reduz som de ônibus e escritório)",
+      "Drivers de 12 mm com grave mais encorpado",
+      "Suporte a LDAC (áudio de alta resolução em celulares compatíveis)",
+      "Modo transparência para conversar sem tirar o fone"
+    ],
+    "contras": [
+      "Bateria menor que a do T13 com o ANC ligado (4 a 5 h)",
+      "Preço já se aproxima de fones de marcas maiores em promoção",
+      "Estojo é um pouco maior no bolso"
+    ],
+    "analise": "O MeloBuds Pro é para quem já teve um fone TWS básico e sentiu falta de duas coisas: cancelamento de ruído que realmente abafa o ambiente e um som com mais corpo. Ele entrega os dois por um preço que ainda é a metade de um Samsung ou JBL equivalente.\nÉ bom para quem usa transporte público, trabalha em ambiente barulhento ou escuta muita música com fone. Para academia e uso casual, o QCY T13 mais barato já basta — o ANC faz pouca diferença correndo na rua e a bateria do T13 dura mais.\nPonto de atenção: o LDAC só funciona em celulares Android compatíveis; no iPhone você fica no codec padrão. Com o ANC ligado a bateria cai bastante, então conte com uma recarga no meio do dia de uso intenso.",
+    "specs": {
+      "Conexão": "Bluetooth 5.4",
+      "Cancelamento de ruído": "Ativo (ANC), até ~46 dB",
+      "Codecs": "SBC, AAC, LDAC",
+      "Bateria (fone)": "4 a 6 h (varia com ANC)",
+      "Resistência à água": "IPX4"
+    },
+    "lojas": [
+      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=qcy+melobuds+pro", "preco": "" }
+    ],
+    "atualizado_em": "2026-09-07"
   }
 ]

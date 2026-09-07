@@ -5,7 +5,7 @@
   "base": "/loja-afiliados",
   "idioma": "pt-BR",
   "autor": "Sidnei Fideles",
-  "email": "SEU-EMAIL-DE-CONTATO@exemplo.com",
+  "email": "",
   "afiliados": {
     "amazon": {
       "ativo": true,

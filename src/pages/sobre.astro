@@ -22,6 +22,12 @@ import config from "../data/config.json";
       links. Isso não muda o preço que você paga e não influencia nossas notas —
       apontamos defeitos sempre que existem.
     </p>
-    <p>Dúvidas ou correções: <a href={`mailto:${config.email}`}>{config.email}</a>.</p>
+    {
+      config.email ? (
+        <p>Dúvidas ou correções: <a href={`mailto:${config.email}`}>{config.email}</a>.</p>
+      ) : (
+        <p>Canal de contato em implantação. Em breve nesta página.</p>
+      )
+    }
   </div>
 </Base>

@@ -41,6 +41,6 @@ import config from "../data/config.json";
       na loja no momento da compra.
     </p>
 
-    <p>Contato: <a href={`mailto:${config.email}`}>{config.email}</a></p>
+    {config.email && <p>Contato: <a href={`mailto:${config.email}`}>{config.email}</a></p>}
   </div>
 </Base>

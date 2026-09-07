@@ -3,6 +3,7 @@ import Base from "../layouts/Base.astro";
 import ProdutoCard from "../components/ProdutoCard.astro";
 import produtos from "../data/produtos.json";
 import categorias from "../data/categorias.json";
+import guias from "../data/guias.json";
 import config from "../data/config.json";
 import { rota } from "../lib/url.js";
 
@@ -35,6 +36,29 @@ const recentes = [...produtos]
       </>
     )
   }
+
+  <h2>Guias de compra</h2>
+  <p style="color:var(--cor-suave);margin-top:-4px">
+    Está em dúvida entre modelos? Comece por aqui.
+  </p>
+  <div class="grade">
+    {
+      guias.map((g) => (
+        <article class="card">
+          <div class="corpo">
+            <span class="selo-categoria">Guia</span>
+            <h3>
+              <a class="titulo" href={rota(`/guia/${g.slug}/`)}>{g.titulo}</a>
+            </h3>
+            <span style="flex:1" />
+            <a class="botao secundario" href={rota(`/guia/${g.slug}/`)}>
+              Ler guia
+            </a>
+          </div>
+        </article>
+      ))
+    }
+  </div>
 
   <h2>Atualizados recentemente</h2>
   <div class="grade">

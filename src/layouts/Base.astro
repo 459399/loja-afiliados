@@ -76,6 +76,7 @@ const anoAtual = new Date().getFullYear();
       <div class="container">
         <a class="logo" href={rota("/")}>{config.nome}</a>
         <nav>
+          <a href={rota("/guias/")}>Guias</a>
           {
             categorias.map((c) => (
               <a href={rota(`/categoria/${c.slug}/`)}>{c.nome}</a>
@@ -97,7 +98,7 @@ const anoAtual = new Date().getFullYear();
           <a href={rota("/sobre/")}>Sobre</a>
           <a href={rota("/politica-de-divulgacao/")}>Divulgação de afiliados</a>
           <a href={rota("/politica-de-privacidade/")}>Privacidade</a>
-          <a href={`mailto:${config.email}`}>Contato</a>
+          {config.email && <a href={`mailto:${config.email}`}>Contato</a>}
         </nav>
         <p>
           © {anoAtual} {config.nome}. Preços e disponibilidade podem mudar.
