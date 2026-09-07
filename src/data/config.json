@@ -8,8 +8,8 @@
   "email": "SEU-EMAIL-DE-CONTATO@exemplo.com",
   "afiliados": {
     "amazon": {
-      "ativo": false,
-      "tag": "SEU-TAG-20",
+      "ativo": true,
+      "tag": "sidfideles-20",
       "base": "https://www.amazon.com.br"
     },
     "mercadolivre": {
