@@ -3,7 +3,7 @@
     "slug": "fone-bluetooth-qcy-t13",
     "titulo": "Fone Bluetooth QCY T13",
     "categoria": "eletronicos",
-    "imagem": "/img/placeholder.svg",
+    "imagem": "/img/cat/eletronicos.svg",
     "nota": 4.5,
     "preco_aprox": "R$ 120 a R$ 160",
     "destaque": true,
@@ -29,8 +29,16 @@
       "Controles": "Toque, configuráveis pelo app QCY"
     },
     "lojas": [
-      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=fone+qcy+t13", "preco": "" },
-      { "loja": "mercadolivre", "url": "https://meli.la/2djAABq", "preco": "" }
+      {
+        "loja": "amazon",
+        "url": "https://www.amazon.com.br/s?k=fone+qcy+t13",
+        "preco": ""
+      },
+      {
+        "loja": "mercadolivre",
+        "url": "https://meli.la/2djAABq",
+        "preco": ""
+      }
     ],
     "atualizado_em": "2026-09-06"
   },
@@ -38,7 +46,7 @@
     "slug": "echo-dot-5-geracao-alexa",
     "titulo": "Echo Dot 5ª Geração (Alexa)",
     "categoria": "casa",
-    "imagem": "/img/placeholder.svg",
+    "imagem": "/img/cat/casa.svg",
     "nota": 4.6,
     "preco_aprox": "R$ 420 a R$ 570",
     "destaque": true,
@@ -63,8 +71,16 @@
       "Hub inteligente": "Não (apenas no Echo Dot Max)"
     },
     "lojas": [
-      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=echo+dot+5+geracao", "preco": "" },
-      { "loja": "mercadolivre", "url": "https://meli.la/2ut1Ajf", "preco": "" }
+      {
+        "loja": "amazon",
+        "url": "https://www.amazon.com.br/s?k=echo+dot+5+geracao",
+        "preco": ""
+      },
+      {
+        "loja": "mercadolivre",
+        "url": "https://meli.la/2ut1Ajf",
+        "preco": ""
+      }
     ],
     "atualizado_em": "2026-09-06"
   },
@@ -72,7 +88,7 @@
     "slug": "smartwatch-redmi-watch-5-active",
     "titulo": "Smartwatch Redmi Watch 5 Active",
     "categoria": "eletronicos",
-    "imagem": "/img/placeholder.svg",
+    "imagem": "/img/cat/eletronicos.svg",
     "nota": 4.3,
     "preco_aprox": "R$ 250 a R$ 320",
     "destaque": false,
@@ -98,8 +114,16 @@
       "Modos de treino": "140+"
     },
     "lojas": [
-      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=redmi+watch+5+active", "preco": "" },
-      { "loja": "mercadolivre", "url": "https://meli.la/2LX6zYA", "preco": "" }
+      {
+        "loja": "amazon",
+        "url": "https://www.amazon.com.br/s?k=redmi+watch+5+active",
+        "preco": ""
+      },
+      {
+        "loja": "mercadolivre",
+        "url": "https://meli.la/2LX6zYA",
+        "preco": ""
+      }
     ],
     "atualizado_em": "2026-09-06"
   },
@@ -107,7 +131,7 @@
     "slug": "xiaomi-smart-band-9",
     "titulo": "Xiaomi Smart Band 9",
     "categoria": "fitness",
-    "imagem": "/img/placeholder.svg",
+    "imagem": "/img/cat/fitness.svg",
     "nota": 4.5,
     "preco_aprox": "R$ 220 a R$ 300",
     "destaque": false,
@@ -132,8 +156,16 @@
       "Peso": "~16 g sem pulseira"
     },
     "lojas": [
-      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=xiaomi+smart+band+9", "preco": "" },
-      { "loja": "mercadolivre", "url": "https://meli.la/2fQzxiF", "preco": "" }
+      {
+        "loja": "amazon",
+        "url": "https://www.amazon.com.br/s?k=xiaomi+smart+band+9",
+        "preco": ""
+      },
+      {
+        "loja": "mercadolivre",
+        "url": "https://meli.la/2fQzxiF",
+        "preco": ""
+      }
     ],
     "atualizado_em": "2026-09-06"
   },
@@ -141,7 +173,7 @@
     "slug": "air-fryer-mondial-4l",
     "titulo": "Air Fryer Mondial 4L (linha AFN)",
     "categoria": "casa",
-    "imagem": "/img/placeholder.svg",
+    "imagem": "/img/cat/casa.svg",
     "nota": 4.6,
     "preco_aprox": "R$ 250 a R$ 380",
     "destaque": true,
@@ -166,8 +198,16 @@
       "Temperatura": "Até ~200 °C"
     },
     "lojas": [
-      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=air+fryer+mondial+4+litros", "preco": "" },
-      { "loja": "mercadolivre", "url": "https://meli.la/1VRsKFi", "preco": "" }
+      {
+        "loja": "amazon",
+        "url": "https://www.amazon.com.br/s?k=air+fryer+mondial+4+litros",
+        "preco": ""
+      },
+      {
+        "loja": "mercadolivre",
+        "url": "https://meli.la/1VRsKFi",
+        "preco": ""
+      }
     ],
     "atualizado_em": "2026-09-06"
   },
@@ -175,7 +215,7 @@
     "slug": "robo-aspirador-kabum-smart-700",
     "titulo": "Robô Aspirador KaBuM! Smart 700",
     "categoria": "casa",
-    "imagem": "/img/placeholder.svg",
+    "imagem": "/img/cat/casa.svg",
     "nota": 4.2,
     "preco_aprox": "R$ 900 a R$ 1.400",
     "destaque": false,
@@ -200,8 +240,16 @@
       "Altura vencível": "~1,5 cm"
     },
     "lojas": [
-      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=robo+aspirador+kabum+smart+700", "preco": "" },
-      { "loja": "mercadolivre", "url": "https://meli.la/2RHgi15", "preco": "" }
+      {
+        "loja": "amazon",
+        "url": "https://www.amazon.com.br/s?k=robo+aspirador+kabum+smart+700",
+        "preco": ""
+      },
+      {
+        "loja": "mercadolivre",
+        "url": "https://meli.la/2RHgi15",
+        "preco": ""
+      }
     ],
     "atualizado_em": "2026-09-06"
   },
@@ -209,7 +257,7 @@
     "slug": "kit-organizadores-de-gaveta",
     "titulo": "Kit de Organizadores de Gaveta e Armário",
     "categoria": "casa",
-    "imagem": "/img/placeholder.svg",
+    "imagem": "/img/cat/casa.svg",
     "nota": 4.3,
     "preco_aprox": "R$ 30 a R$ 120",
     "destaque": false,
@@ -232,8 +280,16 @@
       "Cuidado": "Medir a gaveta antes de comprar"
     },
     "lojas": [
-      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=organizador+de+gaveta+kit", "preco": "" },
-      { "loja": "mercadolivre", "url": "https://meli.la/2F2MFjN", "preco": "" }
+      {
+        "loja": "amazon",
+        "url": "https://www.amazon.com.br/s?k=organizador+de+gaveta+kit",
+        "preco": ""
+      },
+      {
+        "loja": "mercadolivre",
+        "url": "https://meli.la/2F2MFjN",
+        "preco": ""
+      }
     ],
     "atualizado_em": "2026-09-06"
   },
@@ -241,7 +297,7 @@
     "slug": "protetor-solar-facial-toque-seco",
     "titulo": "Protetor Solar Facial com Cor (toque seco)",
     "categoria": "beleza",
-    "imagem": "/img/placeholder.svg",
+    "imagem": "/img/cat/beleza.svg",
     "nota": 4.6,
     "preco_aprox": "R$ 45 a R$ 90",
     "destaque": false,
@@ -265,8 +321,16 @@
       "Reaplicação": "A cada 3 h de exposição"
     },
     "lojas": [
-      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=protetor+solar+facial+toque+seco+com+cor", "preco": "" },
-      { "loja": "mercadolivre", "url": "https://meli.la/2bYATLB", "preco": "" }
+      {
+        "loja": "amazon",
+        "url": "https://www.amazon.com.br/s?k=protetor+solar+facial+toque+seco+com+cor",
+        "preco": ""
+      },
+      {
+        "loja": "mercadolivre",
+        "url": "https://meli.la/2bYATLB",
+        "preco": ""
+      }
     ],
     "atualizado_em": "2026-09-06"
   },
@@ -274,7 +338,7 @@
     "slug": "escova-secadora-rotativa",
     "titulo": "Escova Secadora Rotativa",
     "categoria": "beleza",
-    "imagem": "/img/placeholder.svg",
+    "imagem": "/img/cat/beleza.svg",
     "nota": 4.4,
     "preco_aprox": "R$ 120 a R$ 300",
     "destaque": false,
@@ -298,8 +362,16 @@
       "Ideal para": "Cabelo liso a ondulado, comprimento médio"
     },
     "lojas": [
-      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=escova+secadora+rotativa", "preco": "" },
-      { "loja": "mercadolivre", "url": "https://meli.la/2xm1um9", "preco": "" }
+      {
+        "loja": "amazon",
+        "url": "https://www.amazon.com.br/s?k=escova+secadora+rotativa",
+        "preco": ""
+      },
+      {
+        "loja": "mercadolivre",
+        "url": "https://meli.la/2xm1um9",
+        "preco": ""
+      }
     ],
     "atualizado_em": "2026-09-06"
   },
@@ -307,7 +379,7 @@
     "slug": "fonte-bebedouro-para-gatos",
     "titulo": "Fonte Bebedouro para Gatos e Cães",
     "categoria": "pet",
-    "imagem": "/img/placeholder.svg",
+    "imagem": "/img/cat/pet.svg",
     "nota": 4.5,
     "preco_aprox": "R$ 90 a R$ 200",
     "destaque": false,
@@ -332,8 +404,16 @@
       "Energia": "USB (5 V)"
     },
     "lojas": [
-      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=fonte+bebedouro+gato", "preco": "" },
-      { "loja": "mercadolivre", "url": "https://meli.la/1XskTp3", "preco": "" }
+      {
+        "loja": "amazon",
+        "url": "https://www.amazon.com.br/s?k=fonte+bebedouro+gato",
+        "preco": ""
+      },
+      {
+        "loja": "mercadolivre",
+        "url": "https://meli.la/1XskTp3",
+        "preco": ""
+      }
     ],
     "atualizado_em": "2026-09-06"
   },
@@ -341,7 +421,7 @@
     "slug": "kit-faixas-de-resistencia",
     "titulo": "Kit de Faixas de Resistência para Treino em Casa",
     "categoria": "fitness",
-    "imagem": "/img/placeholder.svg",
+    "imagem": "/img/cat/fitness.svg",
     "nota": 4.5,
     "preco_aprox": "R$ 50 a R$ 130",
     "destaque": false,
@@ -365,8 +445,16 @@
       "Acompanha": "Geralmente bolsa e presilha de porta"
     },
     "lojas": [
-      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=kit+faixa+de+resistencia+treino", "preco": "" },
-      { "loja": "mercadolivre", "url": "https://meli.la/1RTwmTm", "preco": "" }
+      {
+        "loja": "amazon",
+        "url": "https://www.amazon.com.br/s?k=kit+faixa+de+resistencia+treino",
+        "preco": ""
+      },
+      {
+        "loja": "mercadolivre",
+        "url": "https://meli.la/1RTwmTm",
+        "preco": ""
+      }
     ],
     "atualizado_em": "2026-09-06"
   },
@@ -374,7 +462,7 @@
     "slug": "air-fryer-forno-12l",
     "titulo": "Air Fryer Forno 12L (Britânia / Mondial / Midea)",
     "categoria": "casa",
-    "imagem": "/img/placeholder.svg",
+    "imagem": "/img/cat/casa.svg",
     "nota": 4.4,
     "preco_aprox": "R$ 450 a R$ 750",
     "destaque": false,
@@ -399,7 +487,11 @@
       "Ideal para": "5+ pessoas, uso como forno"
     },
     "lojas": [
-      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=air+fryer+forno+12+litros", "preco": "" }
+      {
+        "loja": "amazon",
+        "url": "https://www.amazon.com.br/s?k=air+fryer+forno+12+litros",
+        "preco": ""
+      }
     ],
     "atualizado_em": "2026-09-07"
   },
@@ -407,7 +499,7 @@
     "slug": "fone-qcy-melobuds-pro",
     "titulo": "Fone QCY MeloBuds Pro",
     "categoria": "eletronicos",
-    "imagem": "/img/placeholder.svg",
+    "imagem": "/img/cat/eletronicos.svg",
     "nota": 4.4,
     "preco_aprox": "R$ 220 a R$ 320",
     "destaque": false,
@@ -432,7 +524,11 @@
       "Resistência à água": "IPX4"
     },
     "lojas": [
-      { "loja": "amazon", "url": "https://www.amazon.com.br/s?k=qcy+melobuds+pro", "preco": "" }
+      {
+        "loja": "amazon",
+        "url": "https://www.amazon.com.br/s?k=qcy+melobuds+pro",
+        "preco": ""
+      }
     ],
     "atualizado_em": "2026-09-07"
   }

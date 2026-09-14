@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0632A"/>
+      <stop offset="1" stop-color="#B83E12"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#g)"/>
+  <g opacity="0.9" transform="translate(200,118)">
+    <ellipse cx="0" cy="10" rx="52" ry="34" fill="none" stroke="#fff" stroke-width="7"/>
+    <rect x="46" y="-2" width="46" height="12" rx="6" fill="#fff"/>
+    <rect x="-58" y="-2" width="20" height="10" rx="5" fill="#fff"/>
+    <rect x="42" y="-2" width="20" height="10" rx="5" fill="#fff"/>
+  </g>
+  <text x="200" y="222" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Casa e Cozinha</text>
+  <text x="200" y="252" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" opacity="0.75" text-anchor="middle">ACHADOS DA SEMANA</text>
+</svg>

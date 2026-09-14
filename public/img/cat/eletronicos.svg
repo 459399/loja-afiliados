@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2C6BE8"/>
+      <stop offset="1" stop-color="#173F95"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#g)"/>
+  <g transform="translate(200,116)">
+    <rect x="-44" y="-34" width="88" height="68" rx="12" fill="none" stroke="#fff" stroke-width="7"/>
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#fff" stroke-width="6"/>
+    <circle cx="26" cy="-20" r="4" fill="#fff"/>
+  </g>
+  <text x="200" y="222" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#ffffff" text-anchor="middle">Eletrônicos</text>
+  <text x="200" y="252" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#ffffff" opacity="0.75" text-anchor="middle">ACHADOS DA SEMANA</text>
+</svg>
