@@ -126,6 +126,78 @@ const pins = [
     linhas: ["Treino de força", "que cabe numa", "gaveta"],
     rodape: "Qual kit escolher para começar",
   },
+
+  // --- Lote 2 ---
+  {
+    arquivo: "11-air-fryer-forno",
+    tema: "cozinha",
+    kicker: "Guia de compra",
+    linhas: ["Air fryer forno", "12L: para", "família grande"],
+    rodape: "Assa frango inteiro e mais",
+  },
+  {
+    arquivo: "12-fone-melobuds-pro",
+    tema: "eletronicos",
+    kicker: "Guia de compra",
+    linhas: ["Fone com", "cancelamento de", "ruído de verdade"],
+    rodape: "Sem pagar preço de marca grande",
+  },
+  {
+    arquivo: "13-smart-band-9",
+    tema: "fitness",
+    kicker: "Fitness e bem-estar",
+    linhas: ["A pulseira", "fitness que você", "esquece no pulso"],
+    rodape: "Bateria de quase 2 semanas",
+  },
+  {
+    arquivo: "14-air-fryer-qual-tamanho",
+    tema: "cozinha",
+    kicker: "Dúvida comum",
+    linhas: ["Air fryer 4L", "ou 12L?", "Qual escolher"],
+    rodape: "Guia rápido por tamanho de família",
+  },
+  {
+    arquivo: "15-echo-dot-5-coisas",
+    tema: "eletronicos",
+    kicker: "Você sabia?",
+    linhas: ["5 coisas que", "o Echo Dot", "faz por você"],
+    rodape: "Além de tocar música",
+  },
+  {
+    arquivo: "16-organizacao-cozinha",
+    tema: "casa",
+    kicker: "Casa e organização",
+    linhas: ["Cozinha pequena?", "Comece pela", "gaveta"],
+    rodape: "O primeiro passo mais barato",
+  },
+  {
+    arquivo: "17-robo-aspirador-vale-a-pena",
+    tema: "casa",
+    kicker: "Vale a pena?",
+    linhas: ["Vale gastar", "R$ 1.000 num", "robô aspirador?"],
+    rodape: "A resposta honesta",
+  },
+  {
+    arquivo: "18-gato-agua-torneira",
+    tema: "pet",
+    kicker: "Pet · atenção",
+    linhas: ["Seu gato bebe", "água de torneira", "aberta?"],
+    rodape: "Pode ser um sinal",
+  },
+  {
+    arquivo: "19-prancha-secador-escova",
+    tema: "beleza",
+    kicker: "Beleza e autocuidado",
+    linhas: ["Prancha, secador", "ou escova", "secadora?"],
+    rodape: "Qual comprar primeiro",
+  },
+  {
+    arquivo: "20-treino-em-casa-comecar",
+    tema: "fitness",
+    kicker: "Fitness em casa",
+    linhas: ["Treino em casa:", "por onde", "começar"],
+    rodape: "O básico que não falta",
+  },
 ];
 
 await mkdir(saida, { recursive: true });
