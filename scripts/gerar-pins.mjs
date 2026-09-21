@@ -198,6 +198,78 @@ const pins = [
     linhas: ["Treino em casa:", "por onde", "começar"],
     rodape: "O básico que não falta",
   },
+
+  // --- Lote 3 ---
+  {
+    arquivo: "21-presentes-tecnologia-200",
+    tema: "eletronicos",
+    kicker: "Guia de presentes",
+    linhas: ["Presentes de", "tecnologia até", "R$ 200"],
+    rodape: "Que não parecem baratos",
+  },
+  {
+    arquivo: "22-air-fryer-cesto-ou-forno",
+    tema: "cozinha",
+    kicker: "Guia de compra",
+    linhas: ["Air fryer de", "cesto ou", "forno?"],
+    rodape: "Qual combina com sua cozinha",
+  },
+  {
+    arquivo: "23-protetor-solar-pele-oleosa",
+    tema: "beleza",
+    kicker: "Beleza e autocuidado",
+    linhas: ["Protetor solar", "para pele", "oleosa"],
+    rodape: "Qual não deixa brilho",
+  },
+  {
+    arquivo: "24-redmi-watch-vs-smart-band",
+    tema: "eletronicos",
+    kicker: "Comparativo direto",
+    linhas: ["Redmi Watch 5", "ou Smart Band 9?", "A diferença real"],
+    rodape: "Qual combina com você",
+  },
+  {
+    arquivo: "25-organizacao-banheiro",
+    tema: "casa",
+    kicker: "Casa e organização",
+    linhas: ["Banheiro", "pequeno e sem", "espaço?"],
+    rodape: "Organizadores que cabem",
+  },
+  {
+    arquivo: "26-fone-para-treino",
+    tema: "eletronicos",
+    kicker: "Eletrônicos",
+    linhas: ["O fone certo", "para treinar", "na academia"],
+    rodape: "Não cai e aguenta suor",
+  },
+  {
+    arquivo: "27-presente-ate-150",
+    tema: "eletronicos",
+    kicker: "Guia de presentes",
+    linhas: ["O que comprar", "de presente até", "R$ 150"],
+    rodape: "Sem parecer sem noção",
+  },
+  {
+    arquivo: "28-gato-hidratado-verao",
+    tema: "pet",
+    kicker: "Pet · verão",
+    linhas: ["Gato desidratado", "no calor?", "Fique atento"],
+    rodape: "Como ajudar seu pet",
+  },
+  {
+    arquivo: "29-cabelo-liso-sem-calor",
+    tema: "beleza",
+    kicker: "Beleza e autocuidado",
+    linhas: ["Cabelo liso", "sem estragar", "com calor"],
+    rodape: "O que realmente funciona",
+  },
+  {
+    arquivo: "30-robo-aspirador-manutencao",
+    tema: "casa",
+    kicker: "Casa e organização",
+    linhas: ["Quanto custa", "manter um robô", "aspirador?"],
+    rodape: "Filtro, pano e bateria",
+  },
 ];
 
 await mkdir(saida, { recursive: true });

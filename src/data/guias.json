@@ -129,5 +129,74 @@
       }
     ],
     "atualizado_em": "2026-09-07"
+  },
+  {
+    "slug": "presentes-tecnologia-ate-200",
+    "titulo": "Presentes de tecnologia até R$ 200 em 2026",
+    "meta_descricao": "Ideias de presente de tecnologia até R$ 200: fone Bluetooth, pulseira fitness e mais. Opções que agradam sem parecer barato.",
+    "intro": "Presente de tecnologia tem duas armadilhas: gastar mais do que precisava, ou acertar algo que parece 'baratinho'. Esta lista fica toda abaixo de R$ 200 mas é de coisas que as pessoas realmente usam todo dia — não é gadget de gaveta.\nServe para amigo secreto, aniversário ou uma lembrancinha de fim de ano.",
+    "criterios": "Selecionamos itens de tecnologia com uso diário comprovado (não é 'gadget curioso' que some em uma semana), preço estável abaixo de R$ 200 na maior parte do ano, e fácil de acertar mesmo sem saber muito sobre a pessoa (não depende de tamanho ou gosto muito específico).",
+    "selecoes": [
+      {
+        "produto": "fone-bluetooth-qcy-t13",
+        "rotulo": "Acerta com quase todo mundo",
+        "texto": "Fone sem fio é presente que todo mundo usa, e o QCY T13 tem preço de presente 'legal' sem ser magro no que entrega: bateria grande e resistência a suor. Risco baixo de decepcionar."
+      },
+      {
+        "produto": "xiaomi-smart-band-9",
+        "rotulo": "Para quem já usa relógio ou pulseira",
+        "texto": "Se a pessoa já usa algo no pulso ou fala em 'querer se cuidar mais', a Smart Band 9 é presente certeiro: leve, bateria de quase duas semanas, mede sono e passos. Não erra tamanho — é ajustável."
+      },
+      {
+        "produto": "kit-faixas-de-resistencia",
+        "rotulo": "Para quem fala em treinar em casa",
+        "texto": "Presente barato, mas pensado — mostra que você prestou atenção. Bom para quem mencionou querer se exercitar mas não tem tempo ou espaço para academia."
+      }
+    ],
+    "faq": [
+      {
+        "p": "Vale comprar sem saber a marca de celular da pessoa?",
+        "r": "Sim, os três itens desta lista funcionam com Android e iPhone sem restrição relevante."
+      },
+      {
+        "p": "É melhor comprar perto da data ou com antecedência?",
+        "r": "Compre com pelo menos 1 a 2 semanas de antecedência, principalmente perto de Black Friday e Natal — é quando o preço varia mais e o frete atrasa mais."
+      }
+    ],
+    "atualizado_em": "2026-09-20"
+  },
+  {
+    "slug": "air-fryer-cesto-ou-forno",
+    "titulo": "Air fryer de cesto ou forno: qual escolher",
+    "meta_descricao": "Diferença entre air fryer de cesto e air fryer forno: qual serve para cada tamanho de família, espaço de cozinha e tipo de receita.",
+    "intro": "Essa é a dúvida número um de quem vai comprar a primeira air fryer (ou trocar a que já tem). A resposta não é sobre qual é 'melhor' — é sobre qual combina com sua cozinha e sua rotina.",
+    "criterios": "Comparação direta com base em capacidade, espaço ocupado, tempo de pré-aquecimento, versatilidade de receitas e público (quantas pessoas a casa tem).",
+    "selecoes": [
+      {
+        "produto": "air-fryer-mondial-4l",
+        "rotulo": "Cesto — para o dia a dia de 1 a 4 pessoas",
+        "texto": "Mais rápida para esquentar, mais fácil de limpar, ocupa menos espaço na bancada. Perfeita para quem mora sozinho, casal, ou família pequena que quer praticidade no dia a dia — congelado, batata, frango em pedaço."
+      },
+      {
+        "produto": "air-fryer-forno-12l",
+        "rotulo": "Forno — para família grande ou quem cozinha de verdade",
+        "texto": "Assa frango inteiro, pizza, bolo — vira um forno de verdade. Só compensa o espaço que ocupa se a casa tiver 5 pessoas ou mais, ou se você recebe visita com frequência e cozinha em quantidade."
+      }
+    ],
+    "faq": [
+      {
+        "p": "Dá para fritar batata frita crocante nas duas?",
+        "r": "Sim, as duas fritam bem sem óleo. A diferença aparece em quantidade (o forno faz mais de uma vez) e no tempo de pré-aquecimento, que é maior no formato forno."
+      },
+      {
+        "p": "Qual gasta mais energia?",
+        "r": "O forno tem potência maior e leva mais tempo pra aquecer, então gasta um pouco mais por uso — mas ainda menos que o forno elétrico convencional para a mesma receita."
+      },
+      {
+        "p": "Dá pra ter as duas?",
+        "r": "Faz sentido se a cozinha tiver espaço e a casa usar bastante: a de cesto para o dia a dia rápido, a de forno para ocasiões e quantidade maior."
+      }
+    ],
+    "atualizado_em": "2026-09-20"
   }
 ]
