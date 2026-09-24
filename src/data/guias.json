@@ -198,5 +198,35 @@
       }
     ],
     "atualizado_em": "2026-09-20"
+  },
+  {
+    "slug": "echo-dot-ou-echo-dot-max",
+    "titulo": "Echo Dot 5 ou Echo Dot Max: qual comprar",
+    "meta_descricao": "Diferença entre Echo Dot 5ª geração e Echo Dot Max: som, hub de casa inteligente e para quem vale pagar mais caro.",
+    "intro": "Os dois têm nome parecido e fazem a mesma coisa básica — tocar música e responder por voz —, mas resolvem problemas diferentes. A escolha certa depende de uma pergunta: você já pensa em automação de casa mais séria, ou só quer um alto-falante inteligente?",
+    "criterios": "Comparação direta com base em hardware (processador, hub embutido), qualidade de som relatada e diferença de preço no varejo brasileiro.",
+    "selecoes": [
+      {
+        "produto": "echo-dot-5-geracao-alexa",
+        "rotulo": "Para o básico bem feito",
+        "texto": "Música, timer, controle de 2 ou 3 dispositivos Wi-Fi, rotinas simples. Custa menos da metade do Max e resolve o que a maioria das pessoas realmente usa no dia a dia."
+      },
+      {
+        "produto": "echo-dot-max",
+        "rotulo": "Para quem vai montar automação de verdade",
+        "texto": "Hub Zigbee e Thread já embutido — economiza comprar um hub separado se você tem ou vai ter fechadura, sensor de presença ou lâmpadas Zigbee. Som também é bem mais forte. Só compensa se a automação for mesmo entrar em cena."
+      }
+    ],
+    "faq": [
+      {
+        "p": "O que é esse 'hub' que o Max tem?",
+        "r": "É o dispositivo que 'traduz' a linguagem de sensores e fechaduras Zigbee/Thread para o Wi-Fi da sua casa. Sem hub, esses dispositivos não funcionam com Alexa — o Echo Dot 5 comum não tem esse hub embutido, só o Max."
+      },
+      {
+        "p": "Dá pra ter os dois na casa, um em cada cômodo?",
+        "r": "Sim, é uma combinação comum: o Max na sala (som melhor, hub central) e o Dot 5 no quarto (mais barato, resolve o básico)."
+      }
+    ],
+    "atualizado_em": "2026-09-23"
   }
 ]

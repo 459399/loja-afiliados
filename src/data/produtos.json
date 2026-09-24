@@ -531,5 +531,42 @@
       }
     ],
     "atualizado_em": "2026-09-07"
+  },
+  {
+    "slug": "echo-dot-max",
+    "titulo": "Echo Dot Max",
+    "categoria": "casa",
+    "imagem": "/img/cat/casa.svg",
+    "nota": 4.5,
+    "preco_aprox": "R$ 780 a R$ 920",
+    "destaque": false,
+    "resumo": "O Echo Dot para quem quer som de verdade e um hub de casa inteligente embutido, sem comprar um dispositivo separado.",
+    "pros": [
+      "Hub Zigbee e Thread embutido (conecta sensores e fechaduras direto, sem gateway à parte)",
+      "Graves bem mais fortes que o Dot 5",
+      "Processador mais rápido, responde na hora",
+      "Compatível com o Alexa+ (recursos de IA mais avançados)"
+    ],
+    "contras": [
+      "Custa quase o dobro do Echo Dot 5",
+      "Para quem só quer ouvir música e ver hora, é gasto desnecessário",
+      "Ainda depende de conta Amazon e internet"
+    ],
+    "analise": "O Echo Dot Max existe para resolver a maior reclamação de quem já tem um Echo Dot comum: som fraco e falta de hub para automação séria. Se você já tem (ou pretende ter) fechadura, sensor de porta, sensor de presença ou lâmpadas Zigbee, o Max economiza a compra de um hub separado — ele já vem embutido.\nO som também é bem mais encorpado, dá pra usar como caixa principal de um quarto ou sala pequena sem parecer fraco.\nSe o seu uso é só tocar música no volume normal, ver a hora e controlar 2 ou 3 tomadas Wi-Fi, o Echo Dot 5 resolve por bem menos da metade do preço — o Max só compensa quando a automação vai ficar mais séria.",
+    "specs": {
+      "Assistente": "Alexa / Alexa+",
+      "Hub inteligente": "Zigbee e Thread embutidos",
+      "Processador": "AZ3 (mais rápido que o Dot 5)",
+      "Áudio": "Graves reforçados",
+      "Conexões": "Wi-Fi dual band, Bluetooth"
+    },
+    "lojas": [
+      {
+        "loja": "amazon",
+        "url": "https://www.amazon.com.br/s?k=echo+dot+max",
+        "preco": ""
+      }
+    ],
+    "atualizado_em": "2026-09-23"
   }
 ]

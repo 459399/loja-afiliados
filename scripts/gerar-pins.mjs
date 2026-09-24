@@ -270,6 +270,78 @@ const pins = [
     linhas: ["Quanto custa", "manter um robô", "aspirador?"],
     rodape: "Filtro, pano e bateria",
   },
+
+  // --- Lote 4 ---
+  {
+    arquivo: "31-echo-dot-ou-max",
+    tema: "casa",
+    kicker: "Comparativo direto",
+    linhas: ["Echo Dot 5 ou", "Echo Dot Max?", "Qual comprar"],
+    rodape: "A diferença que justifica o preço",
+  },
+  {
+    arquivo: "32-quando-trocar-fone",
+    tema: "eletronicos",
+    kicker: "Eletrônicos",
+    linhas: ["5 sinais de", "que é hora de", "trocar o fone"],
+    rodape: "Antes que ele te deixe na mão",
+  },
+  {
+    arquivo: "33-robo-vs-vassoura",
+    tema: "casa",
+    kicker: "Vale a pena?",
+    linhas: ["Robô aspirador", "ou vassoura", "mesmo?"],
+    rodape: "A conta que ninguém faz",
+  },
+  {
+    arquivo: "34-skincare-verao",
+    tema: "beleza",
+    kicker: "Beleza · verão",
+    linhas: ["Rotina de", "skincare para", "o verão"],
+    rodape: "O básico que não pode faltar",
+  },
+  {
+    arquivo: "35-presente-home-office",
+    tema: "eletronicos",
+    kicker: "Guia de presentes",
+    linhas: ["Presente para", "quem trabalha", "em casa"],
+    rodape: "Ideias que realmente se usa",
+  },
+  {
+    arquivo: "36-pulseira-desatualizada",
+    tema: "fitness",
+    kicker: "Fitness e bem-estar",
+    linhas: ["Sua pulseira", "fitness já era?", "3 sinais"],
+    rodape: "Quando vale trocar",
+  },
+  {
+    arquivo: "37-viajar-com-gato",
+    tema: "pet",
+    kicker: "Pet · viagem",
+    linhas: ["Vai viajar e", "deixar o gato?", "Não esqueça isso"],
+    rodape: "O essencial pra quem cuida dele",
+  },
+  {
+    arquivo: "38-organizacao-closet",
+    tema: "casa",
+    kicker: "Casa e organização",
+    linhas: ["Closet ou", "guarda-roupa", "pequeno?"],
+    rodape: "Organize sem reformar",
+  },
+  {
+    arquivo: "39-air-fryer-receitas-facil",
+    tema: "cozinha",
+    kicker: "Cozinha e air fryer",
+    linhas: ["Air fryer:", "receitas fáceis", "pra começar"],
+    rodape: "Do congelado ao caseiro",
+  },
+  {
+    arquivo: "40-smartwatch-corrida",
+    tema: "eletronicos",
+    kicker: "Guia de compra",
+    linhas: ["Corrida ou", "caminhada: qual", "smartwatch levar"],
+    rodape: "GPS, bateria e o que importa",
+  },
 ];
 
 await mkdir(saida, { recursive: true });
