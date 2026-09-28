@@ -342,6 +342,78 @@ const pins = [
     linhas: ["Corrida ou", "caminhada: qual", "smartwatch levar"],
     rodape: "GPS, bateria e o que importa",
   },
+
+  // --- Lote 5 ---
+  {
+    arquivo: "41-erros-comprar-air-fryer",
+    tema: "cozinha",
+    kicker: "Cozinha e air fryer",
+    linhas: ["3 erros comuns", "ao comprar", "air fryer"],
+    rodape: "Evite antes de fechar a compra",
+  },
+  {
+    arquivo: "42-air-fryer-render-mais",
+    tema: "cozinha",
+    kicker: "Dica rápida",
+    linhas: ["Sua air fryer", "não fica", "crocante?"],
+    rodape: "O ajuste que resolve",
+  },
+  {
+    arquivo: "43-comecar-casa-inteligente",
+    tema: "casa",
+    kicker: "Casa inteligente",
+    linhas: ["Por onde", "começar na casa", "inteligente"],
+    rodape: "O primeiro aparelho a comprar",
+  },
+  {
+    arquivo: "44-fone-com-fio-ou-sem-fio",
+    tema: "eletronicos",
+    kicker: "Dúvida comum",
+    linhas: ["Fone com fio", "ou sem fio:", "qual vale mais?"],
+    rodape: "Depende de 1 coisa só",
+  },
+  {
+    arquivo: "45-rotina-beleza-orcamento",
+    tema: "beleza",
+    kicker: "Beleza e autocuidado",
+    linhas: ["Rotina de beleza", "que cabe no", "orçamento"],
+    rodape: "O básico não precisa ser caro",
+  },
+  {
+    arquivo: "46-exercicios-faixa-resistencia",
+    tema: "fitness",
+    kicker: "Fitness em casa",
+    linhas: ["3 exercícios", "pra começar com", "faixa elástica"],
+    rodape: "Sem academia, sem desculpa",
+  },
+  {
+    arquivo: "47-bateria-smartwatch-realidade",
+    tema: "eletronicos",
+    kicker: "Você sabia?",
+    linhas: ["Quanto tempo", "dura a bateria", "do smartwatch?"],
+    rodape: "Nem sempre é o que a caixa promete",
+  },
+  {
+    arquivo: "48-organizacao-economiza-dinheiro",
+    tema: "casa",
+    kicker: "Casa e organização",
+    linhas: ["Organizar a casa", "também economiza", "dinheiro"],
+    rodape: "Veja como",
+  },
+  {
+    arquivo: "49-presente-aniversario-tech",
+    tema: "eletronicos",
+    kicker: "Guia de presentes",
+    linhas: ["Presente de", "aniversário para", "quem ama tech"],
+    rodape: "Ideias que acertam",
+  },
+  {
+    arquivo: "50-cabelo-cuidado-sem-gastar",
+    tema: "beleza",
+    kicker: "Beleza e autocuidado",
+    linhas: ["Cabelo bem", "cuidado sem", "gastar rios de $"],
+    rodape: "O essencial, sem exagero",
+  },
 ];
 
 await mkdir(saida, { recursive: true });
