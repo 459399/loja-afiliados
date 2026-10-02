@@ -228,5 +228,49 @@
       }
     ],
     "atualizado_em": "2026-09-23"
+  },
+  {
+    "slug": "black-friday-2026-lista-de-desejos",
+    "titulo": "Black Friday 2026: lista de desejos e como comprar sem cair em pegadinha",
+    "meta_descricao": "Lista de desejos para a Black Friday 2026 e como saber se o desconto é de verdade: acompanhar preço, evitar produto 'risca-faca' e os itens que mais valem a pena.",
+    "intro": "Black Friday é a época em que mais vale a pena acompanhar de perto o preço dos itens que você já queria comprar — e também a época em que mais aparece desconto falso ('de R$ 999 por R$ 499' que nunca custou R$ 999 de verdade).\nMontamos uma lista de itens deste site que costumam ter desconto real nessa época, mais um guia rápido pra você não cair em pegadinha.",
+    "criterios": "Selecionamos produtos que historicamente entram em promoção real no varejo brasileiro durante a Black Friday (eletrônicos e eletrodomésticos lideram esse tipo de desconto), com preço de entrada acessível e alta procura.",
+    "selecoes": [
+      {
+        "produto": "echo-dot-5-geracao-alexa",
+        "rotulo": "O que mais cai de preço na época",
+        "texto": "O Echo Dot costuma ser um dos itens com desconto mais agressivo em toda Black Friday — já citamos isso na análise dele. Vale esperar a data se você não tem pressa."
+      },
+      {
+        "produto": "air-fryer-mondial-4l",
+        "rotulo": "Sempre entra em promoção",
+        "texto": "Air fryer é item de alto giro no varejo, então a concorrência entre lojas empurra o preço pra baixo nessa época. Bom momento pra comprar se a sua já deu problema."
+      },
+      {
+        "produto": "fone-bluetooth-qcy-t13",
+        "rotulo": "Já é barato, fica mais ainda",
+        "texto": "Mesmo sendo um item de entrada, costuma ter cupom extra na Black Friday. Bom pra quem quer ter um fone reserva ou presentear."
+      },
+      {
+        "produto": "robo-aspirador-kabum-smart-700",
+        "rotulo": "O item caro que mais compensa esperar",
+        "texto": "Por ter ticket alto, é onde a Black Friday faz mais diferença em valor absoluto. Se você está pensando num robô aspirador, vale segurar a compra até a data."
+      }
+    ],
+    "faq": [
+      {
+        "p": "Como saber se o desconto é de verdade?",
+        "r": "Use um site de histórico de preço (buscar por 'histórico de preço' + nome do produto) antes de comprar. Se o preço 'promocional' é igual ou parecido com o praticado nos últimos 2-3 meses, o desconto é fachada."
+      },
+      {
+        "p": "Vale comprar antes da data, se eu ver um preço bom?",
+        "r": "Sim — a Black Friday não é sempre o menor preço do ano. Se o histórico mostrar que aquele preço já é bom, não precisa esperar a data só por tradição."
+      },
+      {
+        "p": "E a Cyber Monday, tem diferença?",
+        "r": "No Brasil costuma ser uma extensão da Black Friday, com foco maior em eletrônicos. Vale olhar as duas datas antes de decidir a compra."
+      }
+    ],
+    "atualizado_em": "2026-10-01"
   }
 ]

@@ -53,6 +53,7 @@ const CORES = {
   beleza: ["#D64B8A", "#9E2E63"],
   pet: ["#7A5CE8", "#4E38A8"],
   fitness: ["#E8A21F", "#B87A12"],
+  blackfriday: ["#2b2b2b", "#000000"],
 };
 
 const pins = [
@@ -413,6 +414,78 @@ const pins = [
     kicker: "Beleza e autocuidado",
     linhas: ["Cabelo bem", "cuidado sem", "gastar rios de $"],
     rodape: "O essencial, sem exagero",
+  },
+
+  // --- Lote 6 ---
+  {
+    arquivo: "51-black-friday-lista-de-desejos",
+    tema: "blackfriday",
+    kicker: "Black Friday 2026",
+    linhas: ["Lista de", "desejos para", "a Black Friday"],
+    rodape: "Economize sem cair em pegadinha",
+  },
+  {
+    arquivo: "52-black-friday-desconto-de-verdade",
+    tema: "blackfriday",
+    kicker: "Dica de Black Friday",
+    linhas: ["Como saber se", "o desconto é", "de verdade"],
+    rodape: "Antes de comprar, confira isso",
+  },
+  {
+    arquivo: "53-qcy-t13-ou-melobuds-pro",
+    tema: "eletronicos",
+    kicker: "Comparativo direto",
+    linhas: ["QCY T13 ou", "MeloBuds Pro:", "qual escolher?"],
+    rodape: "A diferença é o cancelamento de ruído",
+  },
+  {
+    arquivo: "54-echo-dot-max-vale-automacao",
+    tema: "casa",
+    kicker: "Casa inteligente",
+    linhas: ["Echo Dot Max", "vale a pena pra", "automação?"],
+    rodape: "Quando o hub embutido compensa",
+  },
+  {
+    arquivo: "55-fonte-pet-plastico-ou-inox",
+    tema: "pet",
+    kicker: "Pet",
+    linhas: ["Fonte pet:", "plástico ou", "aço inox?"],
+    rodape: "Qual é mais fácil de limpar",
+  },
+  {
+    arquivo: "56-erro-passar-protetor-solar",
+    tema: "beleza",
+    kicker: "Beleza e autocuidado",
+    linhas: ["O erro mais", "comum ao passar", "protetor solar"],
+    rodape: "E como corrigir",
+  },
+  {
+    arquivo: "57-robo-aspirador-tapete",
+    tema: "casa",
+    kicker: "Dúvida comum",
+    linhas: ["Robô aspirador", "funciona bem", "em tapete?"],
+    rodape: "Depende da altura do pelo",
+  },
+  {
+    arquivo: "58-faixa-fisioterapia",
+    tema: "fitness",
+    kicker: "Fitness e bem-estar",
+    linhas: ["Faixa elástica", "também serve", "pra fisioterapia"],
+    rodape: "Reabilitação sem sair de casa",
+  },
+  {
+    arquivo: "59-air-fryer-forno-mora-sozinho",
+    tema: "cozinha",
+    kicker: "Cozinha e air fryer",
+    linhas: ["Air fryer forno", "vale pra quem", "mora sozinho?"],
+    rodape: "Ou é exagero de espaço",
+  },
+  {
+    arquivo: "60-home-office-organizado",
+    tema: "casa",
+    kicker: "Home office",
+    linhas: ["Escritório em", "casa organizado", "em poucos passos"],
+    rodape: "Produtividade começa na mesa",
   },
 ];
 
