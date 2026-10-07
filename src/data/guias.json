@@ -272,5 +272,64 @@
       }
     ],
     "atualizado_em": "2026-10-01"
+  },
+  {
+    "slug": "presentes-de-natal-2026-por-perfil",
+    "titulo": "Presentes de Natal 2026: ideias por perfil de quem vai receber",
+    "meta_descricao": "Ideias de presente de Natal 2026 organizadas por perfil: quem ama tecnologia, quem treina, quem tem gato, quem cozinha. Opções para vários orçamentos.",
+    "intro": "Acertar presente é mais fácil quando você pensa em quem vai receber, não em quanto quer gastar. Em vez de uma lista aleatória, organizamos as ideias por perfil — escolha o que mais combina com a pessoa.\nTodas as opções são de itens que as pessoas realmente usam depois que o Natal passa.",
+    "criterios": "Selecionamos itens com uso diário real (nada de gadget que vira enfeite), preço acessível na maior parte do ano e baixo risco de erro de tamanho ou gosto.",
+    "selecoes": [
+      {
+        "produto": "fone-bluetooth-qcy-t13",
+        "rotulo": "Para quem vive de fone no ouvido",
+        "texto": "Quem escuta podcast, música ou faz reunião o dia todo vai usar o presente todo dia. Bateria longa e resistência a suor fazem dele um presente sem erro."
+      },
+      {
+        "produto": "xiaomi-smart-band-9",
+        "rotulo": "Para quem diz que quer se cuidar mais",
+        "texto": "Leve e ajustável (sem risco de tamanho), mede sono, passos e batimentos. É o tipo de presente que ajuda a pessoa a começar uma rotina."
+      },
+      {
+        "produto": "echo-dot-5-geracao-alexa",
+        "rotulo": "Para quem gosta de tecnologia mas ainda não tem",
+        "texto": "Porta de entrada pra casa inteligente. Quem recebe geralmente usa mais do que esperava — timer, música, lembretes."
+      },
+      {
+        "produto": "fonte-bebedouro-para-gatos",
+        "rotulo": "Para quem tem gato",
+        "texto": "O gato agradece (bebe mais água) e o dono também (menos risco de problema urinário). Presente prático e que mostra carinho com o pet."
+      },
+      {
+        "produto": "kit-faixas-de-resistencia",
+        "rotulo": "Para quem quer treinar em casa",
+        "texto": "Barato, ocupa quase nenhum espaço e serve pra quem não tem tempo ou lugar pra academia. Presente simples que incentiva."
+      },
+      {
+        "produto": "escova-secadora-rotativa",
+        "rotulo": "Para quem gosta de cuidar do cabelo",
+        "texto": "Quem faz escova no salão vai sentir a diferença no dia a dia. Atenção: confirme se a pessoa tem cabelo liso/ondulado — pra cacheado o resultado é outro."
+      },
+      {
+        "produto": "air-fryer-mondial-4l",
+        "rotulo": "Para quem ama cozinhar (ou quer começar)",
+        "texto": "Item que muita gente quer mas adia comprar. Perfeito pra casal, quem mora sozinho ou família pequena."
+      }
+    ],
+    "faq": [
+      {
+        "p": "Quando comprar pra chegar a tempo?",
+        "r": "Compre até meados de dezembro. Depois dessa data o frete costuma atrasar e o estoque de itens populares acaba."
+      },
+      {
+        "p": "Vale esperar a Black Friday pra comprar presente de Natal?",
+        "r": "Sim, se você já sabe o que vai dar — a Black Friday costuma ter preços melhores que dezembro. Veja nosso guia de Black Friday pra checar se o desconto é real."
+      },
+      {
+        "p": "E se a pessoa não gostar?",
+        "r": "Peça a nota fiscal ou deixe o produto na embalagem original. Amazon e Mercado Livre têm política de troca/devolução, mas confira o prazo na hora de comprar."
+      }
+    ],
+    "atualizado_em": "2026-10-06"
   }
 ]

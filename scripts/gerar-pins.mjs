@@ -54,6 +54,7 @@ const CORES = {
   pet: ["#7A5CE8", "#4E38A8"],
   fitness: ["#E8A21F", "#B87A12"],
   blackfriday: ["#2b2b2b", "#000000"],
+  natal: ["#C0262D", "#7A1218"],
 };
 
 const pins = [
@@ -486,6 +487,78 @@ const pins = [
     kicker: "Home office",
     linhas: ["Escritório em", "casa organizado", "em poucos passos"],
     rodape: "Produtividade começa na mesa",
+  },
+
+  // --- Lote 7 ---
+  {
+    arquivo: "61-presentes-natal-por-perfil",
+    tema: "natal",
+    kicker: "Natal 2026",
+    linhas: ["Presentes de", "Natal 2026", "por perfil"],
+    rodape: "Para todo mundo da lista",
+  },
+  {
+    arquivo: "62-natal-quem-mora-sozinho",
+    tema: "natal",
+    kicker: "Natal 2026",
+    linhas: ["Presente de", "Natal pra quem", "mora sozinho"],
+    rodape: "Útil e que cabe no espaço",
+  },
+  {
+    arquivo: "63-natal-quem-tem-gato",
+    tema: "pet",
+    kicker: "Natal · pet",
+    linhas: ["Presente de", "Natal para quem", "tem gato"],
+    rodape: "O gato e o dono agradecem",
+  },
+  {
+    arquivo: "64-natal-quem-treina",
+    tema: "fitness",
+    kicker: "Natal · fitness",
+    linhas: ["Presente para", "quem quer", "treinar em casa"],
+    rodape: "Barato e que realmente se usa",
+  },
+  {
+    arquivo: "65-amigo-secreto-ate-100",
+    tema: "natal",
+    kicker: "Amigo secreto",
+    linhas: ["Amigo secreto", "até R$ 100:", "ideias certeiras"],
+    rodape: "Sem parecer sem noção",
+  },
+  {
+    arquivo: "66-air-fryer-gasto-energia",
+    tema: "cozinha",
+    kicker: "Dúvida comum",
+    linhas: ["Quanto gasta", "de energia uma", "air fryer?"],
+    rodape: "A conta no fim do mês",
+  },
+  {
+    arquivo: "67-monitorar-sono-pulseira",
+    tema: "fitness",
+    kicker: "Fitness e bem-estar",
+    linhas: ["Dá pra monitorar", "sono com uma", "pulseira barata?"],
+    rodape: "O que ela mede de verdade",
+  },
+  {
+    arquivo: "68-escova-secadora-sem-queimar",
+    tema: "beleza",
+    kicker: "Beleza e autocuidado",
+    linhas: ["Como usar escova", "secadora sem", "queimar o fio"],
+    rodape: "Cuidados que fazem diferença",
+  },
+  {
+    arquivo: "69-rotinas-alexa",
+    tema: "casa",
+    kicker: "Casa inteligente",
+    linhas: ["Rotinas da Alexa", "que facilitam", "seu dia a dia"],
+    rodape: "Comece por estas 3",
+  },
+  {
+    arquivo: "70-despensa-organizada",
+    tema: "casa",
+    kicker: "Casa e organização",
+    linhas: ["Despensa", "organizada:", "por onde começar"],
+    rodape: "Do caos ao potinho certo",
   },
 ];
 
