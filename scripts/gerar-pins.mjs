@@ -560,6 +560,78 @@ const pins = [
     linhas: ["Despensa", "organizada:", "por onde começar"],
     rodape: "Do caos ao potinho certo",
   },
+
+  // --- Lote 8 ---
+  {
+    arquivo: "71-mitos-air-fryer",
+    tema: "cozinha",
+    kicker: "Cozinha e air fryer",
+    linhas: ["Mitos e verdades", "sobre air fryer", "que você ouviu"],
+    rodape: "O que é fato e o que é exagero",
+  },
+  {
+    arquivo: "72-bateria-fone-durar-mais",
+    tema: "eletronicos",
+    kicker: "Dica rápida",
+    linhas: ["Como fazer a", "bateria do fone", "durar mais"],
+    rodape: "Hábitos simples que ajudam",
+  },
+  {
+    arquivo: "73-quarto-com-alexa",
+    tema: "casa",
+    kicker: "Casa inteligente",
+    linhas: ["Quarto com", "Alexa: vale", "a pena?"],
+    rodape: "Rotina de dormir e acordar",
+  },
+  {
+    arquivo: "74-gato-pouca-agua-dicas",
+    tema: "pet",
+    kicker: "Pet",
+    linhas: ["Gato bebe pouca", "água? Dicas", "que funcionam"],
+    rodape: "Do jeito simples ao ideal",
+  },
+  {
+    arquivo: "75-protetor-solar-dentro-de-casa",
+    tema: "beleza",
+    kicker: "Dúvida comum",
+    linhas: ["Protetor solar", "todo dia, até", "dentro de casa?"],
+    rodape: "Entenda o motivo",
+  },
+  {
+    arquivo: "76-treino-20-minutos",
+    tema: "fitness",
+    kicker: "Fitness em casa",
+    linhas: ["Treinar 20 min", "em casa já", "faz diferença?"],
+    rodape: "Constância vale mais que tempo",
+  },
+  {
+    arquivo: "77-robo-aspirador-e-pet",
+    tema: "casa",
+    kicker: "Casa e pet",
+    linhas: ["Robô aspirador", "e pet: combina", "ou não?"],
+    rodape: "Pelos, filtro e rotina",
+  },
+  {
+    arquivo: "78-natal-sem-estourar-orcamento",
+    tema: "natal",
+    kicker: "Natal 2026",
+    linhas: ["Lista de Natal", "sem estourar", "o orçamento"],
+    rodape: "Organize antes da correria",
+  },
+  {
+    arquivo: "79-black-friday-o-que-comprar",
+    tema: "blackfriday",
+    kicker: "Black Friday 2026",
+    linhas: ["Black Friday:", "o que comprar", "e o que esperar"],
+    rodape: "Compre com estratégia",
+  },
+  {
+    arquivo: "80-relogio-ou-pulseira-dia-a-dia",
+    tema: "eletronicos",
+    kicker: "Dúvida comum",
+    linhas: ["Relógio ou", "pulseira fitness", "no dia a dia?"],
+    rodape: "Qual combina com sua rotina",
+  },
 ];
 
 await mkdir(saida, { recursive: true });
